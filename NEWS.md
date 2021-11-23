@@ -1,4 +1,4 @@
-# data.iquizoo (development version)
+# data.iquizoo 0.0.2
 
 * Updated `game_info` to keep up with the latest development.
 
