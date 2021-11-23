@@ -1,5 +1,7 @@
 # data.iquizoo (development version)
 
+* Updated `game_info` to keep up with the latest development.
+
 # data.iquizoo 0.0.1
 
 # data.iquizoo 0.0.0.9000
