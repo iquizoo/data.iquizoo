@@ -38,6 +38,7 @@ This is a basic example which shows you how to solve a common problem:
 library(data.iquizoo)
 ## basic example code
 head(game_info)
+str(config_prep_fun)
 ```
 
 ## Contributing
