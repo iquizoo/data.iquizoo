@@ -1,5 +1,7 @@
 # data.iquizoo (development version)
 
+* Added `config_prep_fun` as a default and example configuration of pre-processing functions.
+
 # data.iquizoo 0.0.2
 
 * Updated `game_info` to keep up with the latest development.
