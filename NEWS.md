@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.4
+
+* Corrected abbreviated name for multiple object tracking game.
+
 # data.iquizoo 0.0.3
 
 * Added `config_prep_fun` as a default and example configuration of pre-processing functions.
