@@ -187,7 +187,7 @@ fa5b9880-9393-453a-9538-41decd119296,心境焦虑症状,Anxiety,Anxiety,sumscore
 485a442f-76d8-439c-bf2f-34415366593d,压力事件,Stress,Stress,sumscore
 76621a53-d00c-4efd-83f2-d7d499b7c8b0,言语记忆A,DRM Paradigm,DRM,drm
 d30fe222-c37d-42fb-97d8-e65a039e17d8,言语记忆B,DRM Paradigm B,DRMB,drm
-225527448457733,眼耳并用,Dual 1-back,Dual1back,nback
+225527448457733,眼耳并用,Dual 2-back,Dual2back,nback
 b9f0a08c-48fa-4291-be8a-85d86a4efc89,一心多用,Multiple Task Paradigm,MultiTask,cpt
 3b68c304-efbe-431c-8f87-38611b593b80,一心二用,Dual Task Paradigm,DualTask,cpt
 a606d168-b0ce-4618-8f3b-a5c10ab622d6,一心二用PRO,Dual Task Paradigm Pro,DualTaskPro,cpt
