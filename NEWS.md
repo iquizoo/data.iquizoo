@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.7
+
+* Corrected a game name typo.
+
 # data.iquizoo 0.0.6
 
 * Rename "Dual 1-back" to "Dual 2-back" for the design change.
