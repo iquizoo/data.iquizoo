@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.6
+
+* Rename "Dual 1-back" to "Dual 2-back" for the design change.
+
 # data.iquizoo 0.0.5
 
 * Added the latest completed games.
