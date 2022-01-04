@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.5
+
+* Added the latest completed games.
+
 # data.iquizoo 0.0.4
 
 * Corrected abbreviated name for multiple object tracking game.
