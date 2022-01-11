@@ -58,7 +58,7 @@ d01e177b-6227-40ba-96f9-02f217c29213,记忆策略量表,Memory Strategy,MemStrat
 a18dd7e5-334d-43e1-a893-eea973440748,记忆力自测量表,Memory Self-assess,MemSelf,sumscore
 32893daf-5355-44b1-931e-3ab400ebeeef,家长问卷-冲动行为,Parent Impulsivity,ParentImp,sumscore
 acb3a557-f11c-4a58-97fd-070d1ad2c6e3,家长问卷-注意行为,Parent Inattention,ParentIna,sumscore
-239263721484357,节奏感知,Rhythm Perception,RP,span
+239263721484357,节奏感知,Rhythm Perception,RP,staircase
 b3886679-7004-4581-8cb4-bdd0b5ddc055,九五之集,Number Sets Test,NumSets,countcorrect
 24b1d4ad-ab3e-4361-8b9b-d1dcb5edf2b9,卡片分类,Card Sorting,CardSort,switchcost
 224377872388293,卡片分类PRO,Card Sorting Pro,CardSortPro,switchcost
@@ -101,10 +101,10 @@ b51d446c-9efd-4968-9b1d-d5063aa5d468,三维心理旋转测试B,Mental Rotation 3
 22381430-a93e-4389-a056-2be6e6e4e379,社会支持,Society Support,SS,sumscore
 bdc7a051-727a-4bd0-a040-b4fc72e83596,生活满意度,Satisfaction With Life Scale,SWLS,sumscore
 eecc6df6-a95d-4036-aca0-b1aa65b120db,声调判断,Tone,Tone,cpt
-239263162577477,时间顺序判断,Temporal Order Judgment,TOJ,span
+239263162577477,时间顺序判断,Temporal Order Judgment,TOJ,staircase
 ec40acb2-efba-40cd-adbc-fd604668b451,时空相机A,Spatiotemporal Memory A,SpatTempA,locmem2
 b896281d-9460-450e-9675-47ab3ba1068c,时空相机B,Spatiotemporal Memory B,SpatTempB,locmem2
-239264243732549,时长分辨,Duration Discrimination,DD,span
+239264243732549,时长分辨,Duration Discrimination,DD,staircase
 87c63149-07ba-4d34-bcad-7e5fff3b5dc8,视听反应,Multisense,MltSns,multisense
 98b2cb06-900e-49c1-b9bf-499e6c705838,舒尔特方格（初级）,Schulte Grid Junior,SchulteJr,countcorrect2
 8cd79a3c-bcfa-45f1-aa15-65c52bd4f4ea,舒尔特方格（高级）,Schulte Grid Advanced,SchulteAdv,countcorrect2
@@ -176,7 +176,7 @@ f9608b26-710b-4c64-9300-26f851f4bf95,文字推理B,Verbal Reasoning B,VRB,countc
 11d071cc-7289-429a-a6c5-a552753c52a0,文字推理-初级,Verbal Reasoning Junior,VRJr,countcorrect
 34642c83-8482-4943-a6fc-b604de328cdc,文字推理高级,Verbal Reasoning Advanced,VRAdv,countcorrect
 1ca4dcf4-e1eb-4820-921b-7a748530f3fc,文字推理高级,Verbal Reasoning Classical Advanced,VRCAdv,countcorrect
-240406295777861,我是大厨,Cook Master,Cook,countcorrect
+240406295777861,我是大厨,Modified SynWin,MSynWin,synwin
 7f722c9e-1932-4b6f-b81e-6cd351e858e5,希望量表,Hope,Hope,sumscore
 17c7ee16-eabc-4bf7-8724-5de2260f4460,小学生学习习惯问卷,Learn Habit,Habit,sumscore
 fa5b9880-9393-453a-9538-41decd119296,心境焦虑症状,Anxiety,Anxiety,sumscore
@@ -187,7 +187,7 @@ fa5b9880-9393-453a-9538-41decd119296,心境焦虑症状,Anxiety,Anxiety,sumscore
 485a442f-76d8-439c-bf2f-34415366593d,压力事件,Stress,Stress,sumscore
 76621a53-d00c-4efd-83f2-d7d499b7c8b0,言语记忆A,DRM Paradigm,DRM,drm
 d30fe222-c37d-42fb-97d8-e65a039e17d8,言语记忆B,DRM Paradigm B,DRMB,drm
-225527448457733,眼耳并用,Dual 2-back,Dual2back,nback
+225527448457733,眼耳并用,Dual 2-back,Dual2back,dualnback
 b9f0a08c-48fa-4291-be8a-85d86a4efc89,一心多用,Multiple Task Paradigm,MultiTask,cpt
 3b68c304-efbe-431c-8f87-38611b593b80,一心二用,Dual Task Paradigm,DualTask,cpt
 a606d168-b0ce-4618-8f3b-a5c10ab622d6,一心二用PRO,Dual Task Paradigm Pro,DualTaskPro,cpt
