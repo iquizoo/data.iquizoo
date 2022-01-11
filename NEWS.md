@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.9
+
+* Use `preproc.iquizoo::countcorrect2()` for directed search.
+
 # data.iquizoo 0.0.8
 
 * Mapped to new pre-processing functions for newly developed tests.
