@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.8
+
+* Mapped to new pre-processing functions for newly developed tests.
+
 # data.iquizoo 0.0.7
 
 * Corrected a game name typo.
