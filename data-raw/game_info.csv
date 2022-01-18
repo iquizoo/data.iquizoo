@@ -196,8 +196,8 @@ b6fdcab6-8f1a-470c-8b41-bb526a528db1,萤火虫PRO,Multiple Object Tracking Pro,M
 5134b80a-945f-452e-b6cc-3c2b01295120,萤火虫高级版,Multiple Object Tracking 2,MOT2,span
 6ca66b83-d5ef-47ad-8977-6c114598ae2e,萤火虫极速版,Multiple Object Tracking (Short Version),MOTS,span
 a8813ba1-9dc0-4949-a9a7-f184ebf68091,宇宙遨游,Space Gatherer,SpaGath,countcorrect
-de124965-f280-4177-a747-20fe4aba79fa,宇宙黑洞A,Location Memory A,LocMemA,locmem
-9ca38d8d-a402-49fd-bb5f-aa0f1d499c5e,宇宙黑洞B,Location Memory B,LocMemB,locmem
+de124965-f280-4177-a747-20fe4aba79fa,宇宙黑洞A,Location Memory A,LocMemA,span
+9ca38d8d-a402-49fd-bb5f-aa0f1d499c5e,宇宙黑洞B,Location Memory B,LocMemB,span
 605d5346-5b07-4a9a-b28d-db522de05b02,语义判断,Semanteme,Seman,cpt
 240052750955077,远距离联想A,Remote Association Test A,RATA,countcorrect
 237896300523589,远距离联想A,Remote Association Test Classic A,RATCA,countcorrect
