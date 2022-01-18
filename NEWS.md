@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.10
+
+* Use `preproc.iquizoo::span()` for location memory.
+
 # data.iquizoo 0.0.9
 
 * Use `preproc.iquizoo::countcorrect2()` for directed search.
