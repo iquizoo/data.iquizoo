@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.11
+
+* Modified the english names of some tests to reduce conflicts.
+
 # data.iquizoo 0.0.10
 
 * Use `preproc.iquizoo::span()` for location memory.
