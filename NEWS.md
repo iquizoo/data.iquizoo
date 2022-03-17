@@ -1,3 +1,8 @@
+# data.iquizoo 0.0.12
+
+* Use `reinf()` for reinforcement learning tests.
+* Added more tests.
+
 # data.iquizoo 0.0.11
 
 * Modified the english names of some tests to reduce conflicts.
