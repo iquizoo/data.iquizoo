@@ -21,6 +21,7 @@ c26c3b9c-5582-4155-9f76-b31e47c07f2a,吹气球,BART,BART,bart
 c89ae889-110f-4c57-b201-802374d2f624,词语判断,Lexic,Lexic,cpt
 225528186135045,打靶场,Rotation Span,RSpan,span
 6ab9073b-829e-4f60-9b71-2882bad51bf4,大五人格测验BFAS版本,BFAS,BFAS,sumscore
+267565210513477,大学生基本信息问卷,Basic Information Pro,InfoPro,sumscore
 7034b6f2-0f09-46ea-8b95-634689a8e998,倒背数,Backward Digit Span,BDS,span
 8cf5d67b-d853-4acb-a253-a8ff9aa2d486,登陆月球（初级）,Number Line Estimation Junior,NLEJr,nle
 5c9e7f8b-41a1-4b31-9d94-63be74e5d806,登陆月球（中级）,Number Line Estimation Medium,NLEMed,nle
@@ -81,7 +82,7 @@ cab61a44-0891-4d0f-bdc3-aee60f3a5f00,魔术师高级,Three Back Test,Nback3,nbac
 83d5c767-12ae-464b-9892-c3883c3b1a78,魔术师中级,Two Back Test,Nback2,nback
 bc9f51d0-1d24-4826-a024-67b431741f51,魔术师终极,Four Back Test,Nback4,nback
 082ea578-9bea-4618-94ac-946b7c1daff6,拼音判断,Pinyin,Pinyin,cpt
-18713b0d-a091-40f4-a59e-e2ddf589281d,强化学习,Probabilistic Reinforcement Learning,ProbRL,countcorrect
+18713b0d-a091-40f4-a59e-e2ddf589281d,强化学习,Probabilistic Reinforcement Learning,ProbRL,reinf
 78b65b9d-0c33-4ebc-8551-23d3fbfb4533,青少年心理韧性量表,Adolescent Resilience Scale ,ARS,sumscore
 c377e970-38b8-4d3c-a374-0826f5f89a56,情绪调节问卷,Emotion Regulation,EmoReg,sumscore
 6799a247-736c-466d-92df-fe7449b0da47,情绪觉察问卷(儿童版),Emotion Perception,EmoPerc,sumscore
@@ -93,7 +94,9 @@ c3183d77-9b3e-45d2-acc7-5635bff64ce7,情绪跷跷板,Emotion Seesaw,EmoSee,sumsc
 19c64c85-e049-4f07-98a0-3ba7c6e2f7db,瑞文标准推理,Raven Standard,RavenS,countcorrect
 98ff7e39-c007-496a-9657-b2be8425d303,瑞文标准推理偶数版,Raven Standard Even,RavenSE,countcorrect
 b2c2007f-1eac-43cd-b189-b2e8b205505a,瑞文标准推理奇数版,Raven Standard Odd,RavenSO,countcorrect
-993e97f8-25be-4b20-9fa8-a901c8a6b7e8,瑞文高级推理,Raven Advanced,RavenAdv,countcorrect
+265520726213317,瑞文高级推理,Raven's Advanced Progressive Matrices,RAPM,countcorrect
+264448010960965,瑞文高级推理,Raven's Advanced Progressive Matrices Classic,RAPMC,countcorrect
+993e97f8-25be-4b20-9fa8-a901c8a6b7e8,瑞文高级推理-旧版,Raven Advanced,RavenAdv,countcorrect
 88524693-1140-463e-9833-67e57f06657b,三维心理旋转测试A,Mental Rotation 3D A,MR3DA,countcorrect
 ad810784-6bef-4277-803d-644a4d5d57f6,三维心理旋转测试A,Mental Rotation 3D A (obs),MR3DAo,countcorrect
 b51d446c-9efd-4968-9b1d-d5063aa5d468,三维心理旋转测试B,Mental Rotation 3D B,MR3DB,countcorrect
@@ -178,6 +181,7 @@ f9608b26-710b-4c64-9300-26f851f4bf95,文字推理B,Verbal Reasoning B,VRB,countc
 1ca4dcf4-e1eb-4820-921b-7a748530f3fc,文字推理高级,Verbal Reasoning Classical Advanced,VRCAdv,countcorrect
 240406295777861,我是大厨,Modified SynWin,MSynWin,synwin
 7f722c9e-1932-4b6f-b81e-6cd351e858e5,希望量表,Hope,Hope,sumscore
+265086851706949,小狗回家,NeuroRacer,Racer,racer
 17c7ee16-eabc-4bf7-8724-5de2260f4460,小学生学习习惯问卷,Learn Habit,Habit,sumscore
 fa5b9880-9393-453a-9538-41decd119296,心境焦虑症状,Anxiety,Anxiety,sumscore
 1b58a7b3-6b2d-4117-a2c4-85f8c8d78e3a,心理健康问卷,Mental Health Scale,MHScale,sumscore
