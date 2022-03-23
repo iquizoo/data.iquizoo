@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.13
+
+* Updated `game_id` column in `game_info` data to numeric values only.
+
 # data.iquizoo 0.0.12
 
 * Use `reinf()` for reinforcement learning tests.
