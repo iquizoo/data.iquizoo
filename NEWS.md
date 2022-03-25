@@ -1,3 +1,7 @@
+# data.iquizoo 0.0.14
+
+* add a temporary game SchulteGrid(research)
+
 # data.iquizoo 0.0.13
 
 * Updated `game_id` column in `game_info` data to numeric values only.
