@@ -112,6 +112,7 @@
 268008982659173,舒尔特方格（初级）,Schulte Grid Junior,SchulteJr,countcorrect2
 268008982659152,舒尔特方格（高级）,Schulte Grid Advanced,SchulteAdv,countcorrect2
 268008982667380,舒尔特方格（中级）,Schulte Grid Medium,SchulteMed,countcorrect2
+268008982667380,舒尔特方格（科研）,Schulte Grid Medium,SchulteMed2,countcorrect2
 268008982655059,数感,Nonsymbolic Numeric Comparison,NsymNCmp,nsymncmp
 268008982659159,数字大小比较,Symbolic Numeric Comparison,SymNCmp,symncmp
 268008982655101,数字归纳推理,Digit Reasoning Induction,DRI,countcorrect
