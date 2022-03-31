@@ -1,3 +1,9 @@
+# data.iquizoo 0.1.0
+
+## Breaking Changes
+
+* Remove obsolete data `config_prep_fun` and merged its info to `game_info`. Basically, `input` and `extra` can be configured there.
+
 # data.iquizoo 0.0.14
 
 * add a temporary game SchulteGrid(research)
