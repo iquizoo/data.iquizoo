@@ -12,6 +12,8 @@ A data frame with 86 rows of 3 variables:
 \item{game_name_en}{English game name.}
 \item{game_name_abbr}{English game name abbreviated.}
 \item{prep_fun_name}{Name of the preprocessing function.}
+\item{input}{Configure input variable names in the raw data.}
+\item{extra}{Configure extra special values in the raw data.}
 }
 }
 \usage{
