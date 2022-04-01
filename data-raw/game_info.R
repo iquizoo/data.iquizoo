@@ -11,7 +11,8 @@ game_info <- readr::read_csv(
   dplyr::mutate(
     dplyr::across(
       c(input, extra),
-      ~ map(., fromJSON_possibly)
+      ~ purrr::map(., fromJSON_possibly) |>
+        purrr::map_chr(rlang::expr_text)
     )
   )
 usethis::use_data(game_info, overwrite = TRUE)
