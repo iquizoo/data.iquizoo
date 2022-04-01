@@ -1,3 +1,7 @@
+# data.iquizoo 0.1.1
+
+* Store `input` and `extra` as strings by `rlang::expr_text()`.
+
 # data.iquizoo 0.1.0
 
 ## Breaking Changes
