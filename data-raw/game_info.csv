@@ -76,11 +76,11 @@
 225525822632453,美术卡片,Painting 2-back,Paint2back,nback,,
 268008982667381,密码箱,Keep Track,KeepTrack,span,"{""name_slen"":[""length""]}",
 268008982655057,模拟驾驶,Driving,Driving,driving,,
-268008982642788,魔术师,N Back Test,Nback,nback,,"{""type_signal"":[""stay""]}"
-268008982642809,魔术师初级,One Back Test,Nback1,nback,,"{""type_signal"":[""stay""]}"
-268008982663295,魔术师高级,Three Back Test,Nback3,nback,,"{""type_signal"":[""stay""]}"
-268008982655097,魔术师中级,Two Back Test,Nback2,nback,,"{""type_signal"":[""stay""]}"
-268008982663269,魔术师终极,Four Back Test,Nback4,nback,,"{""type_signal"":[""stay""]}"
+268008982642788,魔术师,N Back Test,Nback,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}"
+268008982642809,魔术师初级,One Back Test,Nback1,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}"
+268008982663295,魔术师高级,Three Back Test,Nback3,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}"
+268008982655097,魔术师中级,Two Back Test,Nback2,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}"
+268008982663269,魔术师终极,Four Back Test,Nback4,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}"
 268008982642763,拼音判断,Pinyin,Pinyin,cpt,,
 268008982642793,强化学习,Probabilistic Reinforcement Learning,ProbRL,reinf,,
 268008982655072,青少年心理韧性量表,Adolescent Resilience Scale,ARS,sumscore,,
