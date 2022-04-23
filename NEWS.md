@@ -1,3 +1,8 @@
+# data.iquizoo 0.1.2
+
+* Update `prep_fun_name` for two games: RAPM and AntiSac.
+* Fix `extra` for all n-back games.
+
 # data.iquizoo 0.1.1
 
 * Store `input` and `extra` as strings by `rlang::expr_text()`.
