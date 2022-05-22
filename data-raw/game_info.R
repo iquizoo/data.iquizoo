@@ -9,6 +9,7 @@ game_info <- readr::read_csv(
   lazy = FALSE
 ) |>
   dplyr::mutate(
+    game_id = bit64::as.integer64(game_id),
     dplyr::across(
       c(input, extra),
       ~ purrr::map(., fromJSON_possibly) |>
