@@ -1,3 +1,13 @@
+# data.iquizoo 0.2.0
+
+## Breaking Changes
+
+* Changed `game_id` class to `bit64::integer64`. This is the default class of the values fetched from database for these values.
+
+## Misc
+
+* Updated `game_info` to the newest version.
+
 # data.iquizoo 0.1.2
 
 * Update `prep_fun_name` for two games: RAPM and AntiSac.
