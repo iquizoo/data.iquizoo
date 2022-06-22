@@ -1,5 +1,7 @@
 # data.iquizoo 0.2.1
 
+* Added more games.
+
 # data.iquizoo 0.2.0
 
 ## Breaking Changes
