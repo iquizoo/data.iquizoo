@@ -1,3 +1,7 @@
+# data.iquizoo 0.3.0
+
+* Support `VersionName` update with a new column named `"version_name"` in `game_info` table.
+
 # data.iquizoo 0.2.1
 
 * Added more games.
