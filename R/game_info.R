@@ -6,7 +6,7 @@
 #' \describe{
 #'   \item{game_id}{Game uuid.}
 #'   \item{game_name}{Game name in Chinese, matching that in the database.}
-#'   \item{game_version}{Game version name.}
+#'   \item{game_name_ver}{Game version name.}
 #'   \item{game_name_en}{English game name.}
 #'   \item{game_name_abbr}{English game name abbreviated.}
 #'   \item{prep_fun_name}{Name of the preprocessing function.}

@@ -1,4 +1,4 @@
-﻿game_id,game_name,game_version,game_name_en,game_name_abbr,prep_fun_name,input,extra
+﻿game_id,game_name,game_name_ver,game_name_en,game_name_abbr,prep_fun_name,input,extra
 305067065282821,Sandia推理A,,Sandia Reasoning A,SandiaA,countcorrect,,
 305067236323525,Sandia推理B,,Sandia Reasoning B,SandiaB,countcorrect,,
 306923687555141,Sandia推理C,,Sandia Reasoning C,SandiaC,countcorrect,,
