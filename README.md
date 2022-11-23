@@ -30,22 +30,25 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(data.iquizoo)
-## basic example code
+# for long-int identifiers
+requireNamespace("bit64")
+#> Loading required namespace: bit64
+# basic example code
 head(game_info)
-#>           game_id           game_name           game_name_en game_name_abbr
-#> 1 268008982659184 Conners行为评定量表                Conners        Conners
-#> 2 268008982650982    MBTI职业性格测试                   MBTI           MBTI
-#> 3 268008982671435             MINIKID                MINIKID        MINIKID
-#> 4 268008982646905   SAGES图形推理测验                  SAGES          SAGES
-#> 5 268008982667388            按图索骥 Hidden Object Paradigm            HOP
-#> 6 268008982646896        贝克焦虑量表 Beck Anxiety Inventory            BAI
+#>           game_id   game_name game_name_ver       game_name_en game_name_abbr
+#> 1 305067065282821 Sandia推理A          <NA> Sandia Reasoning A        SandiaA
+#> 2 305067236323525 Sandia推理B          <NA> Sandia Reasoning B        SandiaB
+#> 3 306923687555141 Sandia推理C          <NA> Sandia Reasoning C        SandiaC
+#> 4 306923906232453 Sandia推理D          <NA> Sandia Reasoning D        SandiaD
+#> 5 306924084809861 Sandia推理E          <NA> Sandia Reasoning E        SandiaE
+#> 6 306924227293317 Sandia推理F          <NA> Sandia Reasoning F        SandiaF
 #>   prep_fun_name input extra
-#> 1      sumscore  NULL  NULL
-#> 2      sumscore  NULL  NULL
-#> 3      sumscore  NULL  NULL
+#> 1  countcorrect  NULL  NULL
+#> 2  countcorrect  NULL  NULL
+#> 3  countcorrect  NULL  NULL
 #> 4  countcorrect  NULL  NULL
-#> 5      refframe  NULL  NULL
-#> 6      sumscore  NULL  NULL
+#> 5  countcorrect  NULL  NULL
+#> 6  countcorrect  NULL  NULL
 ```
 
 ## Contributing
