@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 # data.iquizoo
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/psychelzh/data.iquizoo/workflows/R-CMD-check/badge.svg)](https://github.com/psychelzh/data.iquizoo/actions)
+[![R-CMD-check](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of data.iquizoo is to provide datasets for IQUIZOO workflows. It originally lived in dataproc.iquizoo package, and then we divided it into two new packages: data.iquizoo and preproc.iquizoo (see [psychelzh/dataproc.iquizoo#42](https://github.com/psychelzh/dataproc.iquizoo/issues/42) for more discussions on this decision).

@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/psychelzh/data.iquizoo/workflows/R-CMD-check/badge.svg)](https://github.com/psychelzh/data.iquizoo/actions)
+[![R-CMD-check](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of data.iquizoo is to provide datasets for IQUIZOO workflows.
