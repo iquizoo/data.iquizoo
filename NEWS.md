@@ -1,3 +1,8 @@
+# data.iquizoo 2023.02.27
+
+* Changed version to `YYYY.MM.DD` format. This will make the version number more informative about the release date.
+* Added more recently developed games.
+
 # data.iquizoo 0.3.1
 
 * Changed version name to `game_name_ver`.
