@@ -26,13 +26,14 @@ devtools::install_github("psychelzh/data.iquizoo")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This package only stores data, so there is no function to call. You can
+load the package and see the data:
 
 ``` r
-library(data.iquizoo)
 # for long-int identifiers
 requireNamespace("bit64")
 #> Loading required namespace: bit64
+data(game_info, package = "data.iquizoo")
 # basic example code
 head(game_info)
 #>           game_id   game_name game_name_ver       game_name_en game_name_abbr
