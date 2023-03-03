@@ -84,7 +84,7 @@
 268008982655061,太空飞船,,Flanker Test,Flkr,congeff,,
 270137896329285,太空飞船,快速版,Flanker Test Speeded,FlkrSpd,congeff,,
 224379118576069,太空飞船PRO,,Flanker Test Pro,FlkrPro,congeff,,
-268008982667356,字形判断,,Orthography,Ortho,cpt,,
+268008982667356,字形判断,,Orthography,Ortho,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}"
 268008982667358,宇宙黑洞A,,Location Memory Standard,LocMemStd,span,"{""name_slen"":""numobject""}",
 268008982659181,宇宙黑洞B,,Location Memory Remain,LocMemRem,span,"{""name_slen"":""numobject""}",
 268008982667381,密码箱,,Keep Track,KeepTrack,span,"{""name_slen"":""length""}",
@@ -105,7 +105,7 @@
 240406295777861,我是大厨,,Modified SynWin,MSynWin,synwin,,
 225528186135045,打靶场,,Rotation Span,RSpan,span,"{""name_acc"":""accarrow""}",
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,
-268008982642763,拼音判断,,Pinyin,Pinyin,cpt,,
+268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}"
 268008982667388,按图索骥,,Hidden Object Paradigm,HOP,refframe,,
 268008982671430,捉虫,,Continuous Performance Test,CPT,cpt,,
 268008982667355,捉虫高级版,,Test of Variables of Attention,TOVA,cpt,,
@@ -150,7 +150,7 @@
 268008982659153,登陆月球（初级）,,Number Line Estimation Junior,NLEJr,nle,,
 225527448457733,眼耳并用,,Dual 2-back,Dual2back,dualnback,,
 381576542159749,社交达人,,Face Name Test,FName,fname,,
-268008982667334,符号判断,,Symbol,Symbol,cpt,,
+268008982667334,符号判断,,Symbol,Symbol,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}"
 225525822632453,美术卡片,,Painting 2-back,Paint2back,nback,,
 332028191015813,舒尔特方格初级,学前版,Schulte Grid Junior (Pre-School),SchulteJrK,countcorrect2,,
 268008982667380,舒尔特方格（中级）,,Schulte Grid Medium,SchulteMed,countcorrect2,,
@@ -175,7 +175,7 @@
 268008982667346,言语记忆B,,DRM Paradigm B,DRMB,drm,,
 380507966604165,词汇学习,,Verbal Learning,VL,,,
 386185817178885,词汇学习B,,Verbal Learning B,VLB,,,
-268008982663290,词语判断,,Lexic,Lexic,cpt,,
+268008982663290,词语判断,,Lexic,Lexic,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}"
 268008982650988,语义判断,,Semanteme,Seman,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}"
 268008982655098,超级秒表,极速版,Simple Reaction Time Test (Short Version),SRTS,srt,,
 268008982667348,超级秒表,,Simple Reaction Time Test,SRT,srt,,
