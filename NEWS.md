@@ -1,3 +1,8 @@
+# data.iquizoo 2023.03.03
+
+* Removed one game for there will be no data storage for it.
+* Added preprocessing function name to several newly added games.
+
 # data.iquizoo 2023.02.27
 
 * Changed version to `YYYY.MM.DD` format. This will make the version number more informative about the release date.
