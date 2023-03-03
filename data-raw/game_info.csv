@@ -9,7 +9,7 @@
 268008982646887,一心二用,,Dual Task Paradigm,DualTask,cpt,"{""name_type"":""stimtype""}",
 268008982659192,一心二用PRO,,Dual Task Paradigm Pro,DualTaskPro,cpt,"{""name_type"":""stimtype""}",
 268008982663266,一心多用,,Multiple Task Paradigm,MultiTask,cpt,"{""name_type"":""stimtype""}",
-375916542735109,万花筒,,Object Span,ObjSpan,span,"{""name_slen"":""numpic"";""name_acc"":""acc""}",
+375916542735109,万花筒,,Object Span,ObjSpan,span,"{""name_slen"":""numpic"",""name_acc"":""acc""}",
 268008982659144,三维心理旋转测试A,,Mental Rotation 3D A,MR3DA,countcorrect,,
 268008982663256,三维心理旋转测试B,,Mental Rotation 3D B,MR3DB,countcorrect,,
 268008982642815,专注大师,,Calculation Speeded Junior,CalcSpdJr,countcorrect,,
@@ -27,7 +27,7 @@
 380175342101381,人工词典B,,Categoral Retrieval B,CatRetB,,,
 268008982646872,人工语言-中级,,Associative Memory Language Medium,AscLanMd,countcorrect,"{""name_acc"":""correctness""}",
 268008982650954,人工语言-初级,,Associative Memory Language Junior,AscLanJr,countcorrect,"{""name_acc"":""correctness""}",
-384311706735365,人工语言-高级,,Associative Memory Language Advanced,AscLanAdv,countcorrect,"{""name_acc"":""correctness""}","{""name_check"":""type"";""check_valid"",""test2""}"
+384311706735365,人工语言-高级,,Associative Memory Language Advanced,AscLanAdv,countcorrect,"{""name_acc"":""correctness""}","{""name_check"":""type"",""check_valid"":""test2""}"
 332030550139653,位置记忆,学前版,Spatial Short-term Memory (Pre-School),SSTMK,span,,
 268008982650967,位置记忆,极速版,Spatial Short-term Memory Speeded,SSTMSpd,span,,
 268008982655065,位置记忆,,Spatial Short-term Memory,SSTM,span,,
