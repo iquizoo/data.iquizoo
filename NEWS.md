@@ -1,3 +1,8 @@
+# data.iquizoo 2023.03.04
+
+* Fixed broken raw data for several games.
+* Correct name for "Reading" task.
+
 # data.iquizoo 2023.03.03
 
 * Removed one game for there will be no data storage for it.
