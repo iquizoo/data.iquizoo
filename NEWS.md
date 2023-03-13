@@ -1,3 +1,7 @@
+# data.iquizoo 2023.03.14
+
+* Added back visual memory study.
+
 # data.iquizoo 2023.03.04
 
 * Fixed broken raw data for several games.
