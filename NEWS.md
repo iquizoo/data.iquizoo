@@ -1,3 +1,8 @@
+# data.iquizoo 2023.03.25
+
+* Corrected several info after online updating.
+* Used `preproc.iquizoo::capacity()` for visual arrays tasks.
+
 # data.iquizoo 2023.03.14
 
 * Added back visual memory study.
