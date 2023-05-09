@@ -1,3 +1,9 @@
+# data.iquizoo 2023.05.09
+
+* Added mainly `"Remote Association Test"` task.
+* Added some other movie related tasks.
+* Added other miscellanous tasks.
+
 # data.iquizoo 2023.03.29
 
 * Added `"Sleepiness"` task.
