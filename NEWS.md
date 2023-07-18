@@ -1,3 +1,7 @@
+# data.iquizoo 2023.07.18
+
+* Supported short version tasks.
+
 # data.iquizoo 2023.05.09
 
 * Added mainly `"Remote Association Test"` task.
