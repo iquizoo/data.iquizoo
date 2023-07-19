@@ -1,3 +1,7 @@
+# data.iquizoo 2023.07.19
+
+* Fixed wrong names for Stroop and Birds tasks.
+
 # data.iquizoo 2023.07.18
 
 * Supported short version tasks.
