@@ -1,3 +1,7 @@
+# data.iquizoo 2023.10.03
+
+* Fix `prep_fun_name` for QA version of Face Name task. Now it uses `preproc.iquizoo::countcorrect()`.
+
 # data.iquizoo 2023.07.19
 
 * Fixed wrong names for Stroop and Birds tasks.

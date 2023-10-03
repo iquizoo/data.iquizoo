@@ -188,7 +188,7 @@
 581950149967941,登陆月球（初级）,QC版,Number Line Estimation Junior QC,NLEJrQC,nle,,
 225527448457733,眼耳并用,,Dual 2-back,Dual2back,dualnback,,
 381576542159749,社交达人,,Face Name Test,FName,fname,,
-581936896172357,社交达人,QA版,Face Name Test  QA,FNameQA,fname,,
+581936896172357,社交达人,QA版,Face Name Test  QA,FNameQA,countcorrect,,
 268008982667334,符号判断,,Symbol,Symbol,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}"
 225525822632453,美术卡片,,Painting 2-back,Paint2back,nback,,
 579014973710405,联系记忆任务,,Associative Memory Task,AMT,,,
