@@ -1,3 +1,7 @@
+# data.iquizoo 2023.10.04
+
+* Added a new column to set the name of the one main index for each task.
+
 # data.iquizoo 2023.10.03
 
 * Fix `prep_fun_name` for QA version of Face Name task. Now it uses `preproc.iquizoo::countcorrect()`.

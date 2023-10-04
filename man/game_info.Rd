@@ -15,6 +15,7 @@ A data frame with 86 rows of 3 variables:
 \item{prep_fun_name}{Name of the preprocessing function.}
 \item{input}{Configure input variable names in the raw data.}
 \item{extra}{Configure extra special values in the raw data.}
+\item{index_main}{Configure the main index in the raw data.}
 }
 }
 \usage{

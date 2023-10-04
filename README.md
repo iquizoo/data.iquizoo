@@ -32,24 +32,24 @@ load the package and see the data:
 ``` r
 # for long-int identifiers
 requireNamespace("bit64")
-#> Loading required namespace: bit64
+#> 载入需要的名字空间：bit64
 data(game_info, package = "data.iquizoo")
 # basic example code
 head(game_info)
 #>           game_id   game_name game_name_ver       game_name_en game_name_abbr
-#> 1 305067065282821 Sandia推理A          <NA> Sandia Reasoning A        SandiaA
-#> 2 305067236323525 Sandia推理B          <NA> Sandia Reasoning B        SandiaB
-#> 3 306923687555141 Sandia推理C          <NA> Sandia Reasoning C        SandiaC
-#> 4 306923906232453 Sandia推理D          <NA> Sandia Reasoning D        SandiaD
-#> 5 306924084809861 Sandia推理E          <NA> Sandia Reasoning E        SandiaE
-#> 6 306924227293317 Sandia推理F          <NA> Sandia Reasoning F        SandiaF
-#>   prep_fun_name input extra
-#> 1  countcorrect  NULL  NULL
-#> 2  countcorrect  NULL  NULL
-#> 3  countcorrect  NULL  NULL
-#> 4  countcorrect  NULL  NULL
-#> 5  countcorrect  NULL  NULL
-#> 6  countcorrect  NULL  NULL
+#> 1 576947514081349  2-back任务          <NA>      Two Back CAMP     Nback2CAMP
+#> 2 305067065282821 Sandia推理A          <NA> Sandia Reasoning A        SandiaA
+#> 3 305067236323525 Sandia推理B          <NA> Sandia Reasoning B        SandiaB
+#> 4 306923687555141 Sandia推理C          <NA> Sandia Reasoning C        SandiaC
+#> 5 306923906232453 Sandia推理D          <NA> Sandia Reasoning D        SandiaD
+#> 6 306924084809861 Sandia推理E          <NA> Sandia Reasoning E        SandiaE
+#>   prep_fun_name input extra index_main
+#> 1          <NA>  NULL  NULL       <NA>
+#> 2  countcorrect  NULL  NULL         nc
+#> 3  countcorrect  NULL  NULL         nc
+#> 4  countcorrect  NULL  NULL         nc
+#> 5  countcorrect  NULL  NULL         nc
+#> 6  countcorrect  NULL  NULL         nc
 ```
 
 ## Contributing
