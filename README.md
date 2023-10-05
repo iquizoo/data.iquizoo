@@ -44,12 +44,12 @@ head(game_info)
 #> 5 306923906232453 Sandia推理D          <NA> Sandia Reasoning D        SandiaD
 #> 6 306924084809861 Sandia推理E          <NA> Sandia Reasoning E        SandiaE
 #>   prep_fun_name input extra index_main index_reverse
-#> 1          <NA>  NULL  NULL       <NA>          <NA>
-#> 2  countcorrect  NULL  NULL         nc             n
-#> 3  countcorrect  NULL  NULL         nc             n
-#> 4  countcorrect  NULL  NULL         nc             n
-#> 5  countcorrect  NULL  NULL         nc             n
-#> 6  countcorrect  NULL  NULL         nc             n
+#> 1          <NA>  NULL  NULL       <NA>            NA
+#> 2  countcorrect  NULL  NULL         nc         FALSE
+#> 3  countcorrect  NULL  NULL         nc         FALSE
+#> 4  countcorrect  NULL  NULL         nc         FALSE
+#> 5  countcorrect  NULL  NULL         nc         FALSE
+#> 6  countcorrect  NULL  NULL         nc         FALSE
 ```
 
 ## Contributing

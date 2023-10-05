@@ -1,3 +1,7 @@
+# data.iquizoo 2023.10.05-1
+
+* Correct the name and type of last added column.
+
 # data.iquizoo 2023.10.05
 
 * Added a new column to indicate whether the main index is reversed or not.

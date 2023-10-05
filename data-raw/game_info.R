@@ -5,11 +5,9 @@ fromJSON_possibly <- purrr::possibly(
 )
 game_info <- readr::read_csv(
   "data-raw/game_info.csv",
-  col_types = readr::cols(.default = readr::col_character()),
-  lazy = FALSE
+  col_types = readr::cols(game_id = "I")
 ) |>
   dplyr::mutate(
-    game_id = bit64::as.integer64(game_id),
     dplyr::across(
       c(input, extra),
       ~ purrr::map(., fromJSON_possibly) |>
