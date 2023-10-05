@@ -1,3 +1,7 @@
+# data.iquizoo 2023.10.05
+
+* Added a new column to indicate whether the main index is reversed or not.
+
 # data.iquizoo 2023.10.04
 
 * Added a new column to set the name of the one main index for each task.
