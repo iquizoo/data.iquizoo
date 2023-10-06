@@ -1,3 +1,7 @@
+# data.iquizoo 2023.10.06
+
+* Split `game_info` into two tables: `game_info` and `game_indices`.
+
 # data.iquizoo 2023.10.05-1
 
 * Correct the name and type of last added column.

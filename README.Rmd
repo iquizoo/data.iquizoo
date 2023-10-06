@@ -36,10 +36,11 @@ This package only stores data, so there is no function to call. You can load the
 
 ```{r example}
 # for long-int identifiers
-requireNamespace("bit64")
-data(game_info, package = "data.iquizoo")
+requireNamespace("bit64", quietly = TRUE)
+data(game_info, game_indices, package = "data.iquizoo")
 # basic example code
 head(game_info)
+head(game_indices)
 ```
 
 ## Contributing

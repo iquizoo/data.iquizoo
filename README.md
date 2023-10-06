@@ -31,9 +31,8 @@ load the package and see the data:
 
 ``` r
 # for long-int identifiers
-requireNamespace("bit64")
-#> 载入需要的名字空间：bit64
-data(game_info, package = "data.iquizoo")
+requireNamespace("bit64", quietly = TRUE)
+data(game_info, game_indices, package = "data.iquizoo")
 # basic example code
 head(game_info)
 #>           game_id   game_name game_name_ver       game_name_en game_name_abbr
@@ -43,13 +42,21 @@ head(game_info)
 #> 4 306923687555141 Sandia推理C          <NA> Sandia Reasoning C        SandiaC
 #> 5 306923906232453 Sandia推理D          <NA> Sandia Reasoning D        SandiaD
 #> 6 306924084809861 Sandia推理E          <NA> Sandia Reasoning E        SandiaE
-#>   prep_fun_name input extra index_main index_reverse
-#> 1          <NA>  NULL  NULL       <NA>            NA
-#> 2  countcorrect  NULL  NULL         nc         FALSE
-#> 3  countcorrect  NULL  NULL         nc         FALSE
-#> 4  countcorrect  NULL  NULL         nc         FALSE
-#> 5  countcorrect  NULL  NULL         nc         FALSE
-#> 6  countcorrect  NULL  NULL         nc         FALSE
+#>   prep_fun_name input extra
+#> 1          <NA>  NULL  NULL
+#> 2  countcorrect  NULL  NULL
+#> 3  countcorrect  NULL  NULL
+#> 4  countcorrect  NULL  NULL
+#> 5  countcorrect  NULL  NULL
+#> 6  countcorrect  NULL  NULL
+head(game_indices)
+#>           game_id index_main index_reverse
+#> 1 305067065282821         nc         FALSE
+#> 2 305067236323525         nc         FALSE
+#> 3 306923687555141         nc         FALSE
+#> 4 306923906232453         nc         FALSE
+#> 5 306924084809861         nc         FALSE
+#> 6 306924227293317         nc         FALSE
 ```
 
 ## Contributing
