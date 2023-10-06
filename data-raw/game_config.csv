@@ -44,12 +44,12 @@
 268008982642798,位置记忆PRO,,Spatial Short-term Memory Pro,SSTMPro,span,,,nc,f
 268008982655063,倒背数,,Backward Digit Span,BDS,span,,,nc,f
 358130783630213,倒背数,快速版,Backward Digit Span (Pre-School),BDSK,span,,,nc,f
-268008982667386,候鸟迁徙,,Birds Migration,Birds,complexswitch,,,switch_cost_ies,t
-336204268389253,候鸟迁徙,学前版,Birds Migration (Pre-School),BirdsK,complexswitch,,,switch_cost_ies,t
-349317927539461,候鸟迁徙,快速版,Birds Migration (Short),BirdsS,complexswitch,,,switch_cost_ies,t
-580514423279941,候鸟迁徙,LQ版,Birds Migration LQ,BirdsLQ,complexswitch,,,switch_cost_ies,t
-581942506975557,候鸟迁徙,Q版,Birds Migration Q,BirdsQ,complexswitch,,,switch_cost_ies,t
-224377200398533,候鸟迁徙PRO,,Birds Migration Pro,BirdsPro,complexswitch,,,switch_cost_ies,t
+268008982667386,候鸟迁徙,,Birds Migration,Birds,complexswitch,,,cong_eff_ies,t
+336204268389253,候鸟迁徙,学前版,Birds Migration (Pre-School),BirdsK,complexswitch,,,cong_eff_ies,t
+349317927539461,候鸟迁徙,快速版,Birds Migration (Short),BirdsS,complexswitch,,,cong_eff_ies,t
+580514423279941,候鸟迁徙,LQ版,Birds Migration LQ,BirdsLQ,complexswitch,,,cong_eff_ies,t
+581942506975557,候鸟迁徙,Q版,Birds Migration Q,BirdsQ,complexswitch,,,cong_eff_ies,t
+224377200398533,候鸟迁徙PRO,,Birds Migration Pro,BirdsPro,complexswitch,,,cong_eff_ies,t
 268008982655076,关系判断A,,Relation Judgment A,RelJudgA,countcorrect,,,nc,f
 268008982655087,关系判断B,,Relation Judgment B,RelJudgB,countcorrect,,,nc,f
 375932568191877,动词产生A,,Verb Generation A,VGA,,,,,
