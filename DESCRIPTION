@@ -17,3 +17,7 @@ BugReports: https://github.com/psychelzh/data.iquizoo/issues
 Depends:
     R (>= 2.10)
 LazyData: true
+Imports:
+    dplyr
+Suggests: 
+    bit64

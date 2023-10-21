@@ -17,8 +17,17 @@ game_config <- readr::read_csv(
     )
   )
 game_info <- game_config |>
-  dplyr::select(-contains("index"))
+  select(starts_with("game"))
 game_indices <- game_config |>
   select(game_id, index_main, index_reverse) |>
   drop_na()
+game_preproc <- game_config |>
+  select(game_id, prep_fun_name, input, extra) |>
+  drop_na() |>
+  mutate(
+    prep_fun = syms(prep_fun_name),
+    across(c(extra, input), rlang::parse_exprs),
+    .keep = "unused"
+  )
 usethis::use_data(game_info, game_indices, overwrite = TRUE)
+usethis::use_data(game_preproc, internal = TRUE, overwrite = TRUE)
