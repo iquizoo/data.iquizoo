@@ -1,3 +1,10 @@
+# data.iquizoo 2023.10.22
+
+## Breaking Changes
+
+* Removed `prep_fun_name`, `input` and `extra` columns from `game_info` table.
+* Added `match_preproc()` function to match pre-processing parameters for games.
+
 # data.iquizoo 2023.10.06
 
 * Split `game_info` into two tables: `game_info` and `game_indices`.
