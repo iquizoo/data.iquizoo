@@ -27,7 +27,8 @@ game_preproc <- game_config |>
   mutate(
     prep_fun = syms(prep_fun_name),
     across(c(extra, input), rlang::parse_exprs),
-    .keep = "unused"
+    .keep = "unused",
+    .after = 1
   )
 usethis::use_data(game_info, game_indices, overwrite = TRUE)
 usethis::use_data(game_preproc, internal = TRUE, overwrite = TRUE)

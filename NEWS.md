@@ -1,5 +1,9 @@
 # data.iquizoo 2023.10.22
 
+* Moved `prep_fun` column just after the `game_id` in the results calling `match_preproc()`.
+
+# data.iquizoo 2023.10.22
+
 ## Breaking Changes
 
 * Removed `prep_fun_name`, `input` and `extra` columns from `game_info` table.
