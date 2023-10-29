@@ -1,3 +1,7 @@
+# data.iquizoo 2023.10.29
+
+* Added preprocessing function for creativity related tasks.
+
 # data.iquizoo 2023.10.22
 
 * Moved `prep_fun` column just after the `game_id` in the results calling `match_preproc()`.
