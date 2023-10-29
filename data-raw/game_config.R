@@ -1,10 +1,6 @@
 ## code to prepare `game_info` and `game_indices` dataset goes here
 library(dplyr)
 library(tidyr)
-fromJSON_possibly <- purrr::possibly(
-  jsonlite::fromJSON,
-  otherwise = NULL
-)
 game_config <- readr::read_csv(
   "data-raw/game_config.csv",
   col_types = readr::cols(game_id = "I")
@@ -12,8 +8,10 @@ game_config <- readr::read_csv(
   mutate(
     across(
       c(input, extra),
-      ~ purrr::map(., fromJSON_possibly) |>
-        purrr::map_chr(rlang::expr_text)
+      ~ purrr::map(
+        .x,
+        ~ if (!is.na(.x)) rlang::parse_expr(.x)
+      )
     )
   )
 game_info <- game_config |>
@@ -23,10 +21,9 @@ game_indices <- game_config |>
   drop_na()
 game_preproc <- game_config |>
   select(game_id, prep_fun_name, input, extra) |>
-  drop_na() |>
+  filter(!is.na(prep_fun_name)) |>
   mutate(
     prep_fun = syms(prep_fun_name),
-    across(c(extra, input), rlang::parse_exprs),
     .keep = "unused",
     .after = 1
   )

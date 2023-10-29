@@ -7,14 +7,14 @@
 306924084809861,Sandia推理E,,Sandia Reasoning E,SandiaE,countcorrect,,,nc,f
 306924227293317,Sandia推理F,,Sandia Reasoning F,SandiaF,countcorrect,,,nc,f
 304161462075461,Sandia预测试,,Sandia Reasoning Pilot,SandiaPilot,countcorrect,,,nc,f
-268008982646887,一心二用,,Dual Task Paradigm,DualTask,cpt,"{""name_type"":""stimtype""}",,nc,f
-580503783383365,一心二用,LQ版,Dual Task Paradigm LQ,DualTaskLQ,cpt,"{""name_type"":""stimtype""}",,nc,f
-581941022314821,一心二用,Q版,Dual Task Paradigm Q,DualTaskQ,cpt,"{""name_type"":""stimtype""}",,nc,f
-268008982659192,一心二用PRO,,Dual Task Paradigm Pro,DualTaskPro,cpt,"{""name_type"":""stimtype""}",,nc,f
-268008982663266,一心多用,,Multiple Task Paradigm,MultiTask,cpt,"{""name_type"":""stimtype""}",,nc,f
-375916542735109,万花筒,,Object Span,ObjSpan,span,"{""name_slen"":""numpic"",""name_acc"":""acc""}",,nc,f
-580516903215173,万花筒,LQ版,Object Span LQ,ObjSpanLQ,span,"{""name_slen"":""numpic"",""name_acc"":""acc""}",,nc,f
-581937491521605,万花筒,Q版,Object Span Q,ObjSpanQ,span,"{""name_slen"":""numpic"",""name_acc"":""acc""}",,nc,f
+268008982646887,一心二用,,Dual Task Paradigm,DualTask,cpt,"list(name_type = ""stimtype"")",,nc,f
+580503783383365,一心二用,LQ版,Dual Task Paradigm LQ,DualTaskLQ,cpt,"list(name_type = ""stimtype"")",,nc,f
+581941022314821,一心二用,Q版,Dual Task Paradigm Q,DualTaskQ,cpt,"list(name_type = ""stimtype"")",,nc,f
+268008982659192,一心二用PRO,,Dual Task Paradigm Pro,DualTaskPro,cpt,"list(name_type = ""stimtype"")",,nc,f
+268008982663266,一心多用,,Multiple Task Paradigm,MultiTask,cpt,"list(name_type = ""stimtype"")",,nc,f
+375916542735109,万花筒,,Object Span,ObjSpan,span,"list(name_slen = ""numpic"", name_acc = ""acc"")",,nc,f
+580516903215173,万花筒,LQ版,Object Span LQ,ObjSpanLQ,span,"list(name_slen = ""numpic"", name_acc = ""acc"")",,nc,f
+581937491521605,万花筒,Q版,Object Span Q,ObjSpanQ,span,"list(name_slen = ""numpic"", name_acc = ""acc"")",,nc,f
 268008982659144,三维心理旋转测试A,,Mental Rotation 3D A,MR3DA,countcorrect,,,nc,f
 580512857256261,三维心理旋转测试A,LQA版,Mental Rotation 3D LQ A,MR3DLQA,countcorrect,,,nc,f
 268008982663256,三维心理旋转测试B,,Mental Rotation 3D B,MR3DB,countcorrect,,,nc,f
@@ -33,9 +33,9 @@
 581944844951877,井然有序,QC版,Manipulation Span QC,ManipSpanQC,span,,,nc,f
 380174879445893,人工词典A,,Categoral Retrieval A,CatRetA,,,,,
 380175342101381,人工词典B,,Categoral Retrieval B,CatRetB,,,,,
-268008982646872,人工语言-中级,,Associative Memory Language Medium,AscLanMd,countcorrect,"{""name_acc"":""correctness""}",,nc,f
-268008982650954,人工语言-初级,,Associative Memory Language Junior,AscLanJr,countcorrect,"{""name_acc"":""correctness""}",,nc,f
-384311706735365,人工语言-高级,,Associative Memory Language Advanced,AscLanAdv,countcorrect,"{""name_acc"":""correctness""}","{""name_check"":""type"",""check_valid"":""test2""}",nc,f
+268008982646872,人工语言-中级,,Associative Memory Language Medium,AscLanMd,countcorrect,"list(name_acc = ""correctness"")",,nc,f
+268008982650954,人工语言-初级,,Associative Memory Language Junior,AscLanJr,countcorrect,"list(name_acc = ""correctness"")",,nc,f
+384311706735365,人工语言-高级,,Associative Memory Language Advanced,AscLanAdv,countcorrect,"list(name_acc = ""correctness"")","list(name_check = ""type"", check_valid = ""test2"")",nc,f
 268008982650967,位置记忆,极速版,Spatial Short-term Memory Speeded,SSTMSpd,span,,,nc,f
 268008982655065,位置记忆,,Spatial Short-term Memory,SSTM,span,,,nc,f
 270136914280517,位置记忆,快速版,Spatial Short-term Memory (Short),SSTMS,span,,,nc,f
@@ -87,13 +87,13 @@
 268008982671433,图片记忆B,,Behavioral Pattern Separation B,BPSB,bps,,,bps_score,f
 268008982663270,图片记忆C,,Behavioral Pattern Separation C,BPSC,bps,,,bps_score,f
 268008982663254,图片记忆D,,Behavioral Pattern Separation D,BPSD,bps,,,bps_score,f
-268008982642811,城市导航,,Location Memory Advanced,LocMemAdv,span,"{""name_slen"":""numobject""}",,nc,f
-580502720491845,城市导航,LQ版,Location Memory Advanced LQ,LocMemAdvLQ,span,"{""name_slen"":""numobject""}",,nc,f
-581933155840069,城市导航,QA版,Location Memory Advanced QA,LocMemAdvQA,span,"{""name_slen"":""numobject""}",,nc,f
+268008982642811,城市导航,,Location Memory Advanced,LocMemAdv,span,"list(name_slen = ""numobject"")",,nc,f
+580502720491845,城市导航,LQ版,Location Memory Advanced LQ,LocMemAdvLQ,span,"list(name_slen = ""numobject"")",,nc,f
+581933155840069,城市导航,QA版,Location Memory Advanced QA,LocMemAdvQA,span,"list(name_slen = ""numobject"")",,nc,f
 268008982655053,塔罗牌,,Weather Prediction Paradigm,WxPred,countcorrect,,,nc,f
-268008982667391,声调判断,,Tone,Tone,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
-291684813000773,外星语言-中级,,Associative Memory Language Muted Medium,AscMemMMed,countcorrect,"{""name_acc"":""correctness""}",,nc,f
-291684371972165,外星语言-初级,,Associative Memory Language Muted Junior,AscMemMJr,countcorrect,"{""name_acc"":""correctness""}",,nc,f
+268008982667391,声调判断,,Tone,Tone,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
+291684813000773,外星语言-中级,,Associative Memory Language Muted Medium,AscMemMMed,countcorrect,"list(name_acc = ""correctness"")",,nc,f
+291684371972165,外星语言-初级,,Associative Memory Language Muted Junior,AscMemMJr,countcorrect,"list(name_acc = ""correctness"")",,nc,f
 380176247862021,多变计数师,,Reflective Counting,ReflectCount,switchcost,,,switch_cost_ies,t
 581934263337285,多变计数师,Q版,Reflective Counting Q,ReflectCountQ,switchcost,,,switch_cost_ies,t
 268008982642800,多彩文字,,Color Stroop Paradigm,ColStrp,congeff,,,cong_eff_ies,t
@@ -108,10 +108,10 @@
 332031427347205,太空飞船,学前版,Flanker Test (Pre-School),FlkrK,congeff,,,cong_eff_ies,t
 581945885024581,太空飞船,QC版,Flanker Test QC,FlkrQC,congeff,,,cong_eff_ies,t
 224379118576069,太空飞船PRO,,Flanker Test Pro,FlkrPro,congeff,,,cong_eff_ies,t
-268008982667356,字形判断,,Orthography,Ortho,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
-268008982667358,宇宙黑洞A,,Location Memory Standard,LocMemStd,span,"{""name_slen"":""numobject""}",,nc,f
-268008982659181,宇宙黑洞B,,Location Memory Remain,LocMemRem,span,"{""name_slen"":""numobject""}",,nc,f
-268008982667381,密码箱,,Keep Track,KeepTrack,span,"{""name_slen"":""length""}",,nc,f
+268008982667356,字形判断,,Orthography,Ortho,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
+268008982667358,宇宙黑洞A,,Location Memory Standard,LocMemStd,span,"list(name_slen = ""numobject"")",,nc,f
+268008982659181,宇宙黑洞B,,Location Memory Remain,LocMemRem,span,"list(name_slen = ""numobject"")",,nc,f
+268008982667381,密码箱,,Keep Track,KeepTrack,span,"list(name_slen = ""length"")",,nc,f
 268008982646863,察颜观色,,Faces Reading,Faces,complexswitch,,,switch_cost_ies,t
 581948589850949,察颜观色,Q版,Faces Reading Q,FacesQ,complexswitch,,,switch_cost_ies,t
 224376556507589,察颜观色PRO,,Faces Reading Pro,FacesPro,complexswitch,,,switch_cost_ies,t
@@ -119,8 +119,8 @@
 581934694998341,小狗回家,QA版,NeuroRacerQA,RacerQA,racer,,,mean_score,f
 268008982659145,平衡达人,,Tumbler,TBLR,countcorrect,,,nc,f
 324179001000709,平面展开,,Unfolding,Unfolding,countcorrect,,,nc,f
-304834943373509,幸运小球,,Operation Complex Span,OCSpan,span,"{""name_acc"":""acclet""}",,nc,f
-238279920537669,幸运小球PRO,,Operation Complex Span Pro,OCSpanPro,span,"{""name_acc"":""acclet""}",,nc,f
+304834943373509,幸运小球,,Operation Complex Span,OCSpan,span,"list(name_acc = ""acclet"")",,nc,f
+238279920537669,幸运小球PRO,,Operation Complex Span Pro,OCSpanPro,span,"list(name_acc = ""acclet"")",,nc,f
 268008982642793,强化学习,,Probabilistic Reinforcement Learning,ProbRL,reinf,,,pc_test,f
 268008982663271,快打地鼠,,Hamster,Hamster,crt,,,ies,t
 268008982650956,快打地鼠PRO,,Hamster Pro,HamsterPro,crt,,,ies,t
@@ -131,9 +131,9 @@
 581939901575493,快速归类,Q版,Choice Reaction Time Q,CRTQ,crt,,,ies,t
 224374703641029,快速归类PRO,,Choice Reaction Time Pro,CRTPro,crt,,,ies,t
 240406295777861,我是大厨,,Modified SynWin,MSynWin,synwin,,,score_total,f
-225528186135045,打靶场,,Rotation Span,RSpan,span,"{""name_acc"":""accarrow""}",,nc,f
+225528186135045,打靶场,,Rotation Span,RSpan,span,"list(name_acc = ""accarrow"")",,nc,f
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,,dprime,f
-268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
+268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 268008982667388,按图索骥,,Hidden Object Paradigm,HOP,refframe,,,mean_log_err_allo,t
 268008982671430,捉虫,,Continuous Performance Test,CPT,cpt,,,dprime,f
 268008982667355,捉虫高级版,,Test of Variables of Attention,TOVA,cpt,,,dprime,f
@@ -162,18 +162,18 @@
 332030816232325,方块速记,学前版,Spatial Pattern Memory (Pre-School),SPMK,span,,,nc,f
 268008982667387,时空相机A,,Spatiotemporal Memory A,SpatTempA,locmem2,,,nc_loc,f
 268008982663261,时空相机B,,Spatiotemporal Memory B,SpatTempB,locmem2,,,nc_loc,f
-239264243732549,时长分辨,,Duration Discrimination,DD,staircase,"{""name_level"":""variatime""}",,thresh_last_block,t
+239264243732549,时长分辨,,Duration Discrimination,DD,staircase,"list(name_level = ""variatime"")",,thresh_last_block,t
 383366895919877,时间记忆任务,,Temporal Memory Test,TMT,,,,,
-239263162577477,时间顺序判断,,Temporal Order Judgment,TOJ,staircase,"{""name_level"":""soa""}",,thresh_last_block,t
+239263162577477,时间顺序判断,,Temporal Order Judgment,TOJ,staircase,"list(name_level = ""soa"")",,thresh_last_block,t
 225191769534981,格子卡片,,Grid 2-back,Grid2back,nback,,,dprime,f
 580516434895173,格子卡片,LQA版,Grid 2-back LQA,Grid2backLQA,nback,,,dprime,f
 581950783627589,格子卡片,QA版,Grid 2-back QA,Grid2backQA,nback,,,dprime,f
 268008982655057,模拟驾驶,,Driving,Driving,driving,,,still_ratio,f
 274724575203397,模拟驾驶,快速版,Driving (Short Version),DrivingS,driving,,,still_ratio,f
-268008982659165,欢乐餐厅,,Associative Memory,AscMem,countcorrect,"{""name_acc"":""correctness""}",,nc,f
-580504378188101,欢乐餐厅,LQ版,Associative Memory LQ,AscMemLQ,countcorrect,"{""name_acc"":""correctness""}",,nc,f
-581944034730053,欢乐餐厅,Q版,Associative Memory Q,AscMemQ,countcorrect,"{""name_acc"":""correctness""}",,nc,f
-279330041741381,欢乐餐厅PRO,,Associative Memory Pro,AscMemPro,countcorrect,"{""name_acc"":""correctness""}",,nc,f
+268008982659165,欢乐餐厅,,Associative Memory,AscMem,countcorrect,"list(name_acc = ""correctness"")",,nc,f
+580504378188101,欢乐餐厅,LQ版,Associative Memory LQ,AscMemLQ,countcorrect,"list(name_acc = ""correctness"")",,nc,f
+581944034730053,欢乐餐厅,Q版,Associative Memory Q,AscMemQ,countcorrect,"list(name_acc = ""correctness"")",,nc,f
+279330041741381,欢乐餐厅PRO,,Associative Memory Pro,AscMemPro,countcorrect,"list(name_acc = ""correctness"")",,nc,f
 268008982659177,河道捕鱼,,One Back Fishing,OneBackFish,sumweighted,,,nc_weighted,f
 332032592180101,河道捕鱼,学前版,One Back Fishing (Pre-School),OneBackFishK,sumweighted,,,nc_weighted,f
 380174783693701,注意指向,,Attention Orientation,AttenOrient,ant_orient,,,cong_eff_ies,t
@@ -189,7 +189,7 @@
 225527448457733,眼耳并用,,Dual 2-back,Dual2back,dualnback,,,dprime,f
 381576542159749,社交达人,,Face Name Test,FName,fname,,,fntotal,f
 581936896172357,社交达人,QA版,Face Name Test  QA,FNameQA,countcorrect,,,nc,f
-268008982667334,符号判断,,Symbol,Symbol,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
+268008982667334,符号判断,,Symbol,Symbol,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 225525822632453,美术卡片,,Painting 2-back,Paint2back,nback,,,dprime,f
 579014973710405,联系记忆任务,,Associative Memory Task,AMT,,,,,
 404131546334469,自由回忆任务,,Free Recall,Recall,,,,,
@@ -199,18 +199,18 @@
 269324226523205,舒尔特方格（科研）,,Schulte Grid Medium,SchulteMed2,countcorrect2,,,nc_cor,f
 268008982659152,舒尔特方格（高级）,,Schulte Grid Advanced,SchulteAdv,countcorrect2,,,nc_cor,f
 375934626087813,色彩检测,,Filtering Color,FiltColor,capacity,,,k,f
-239263721484357,节奏感知,,Rhythm Perception,RP,staircase,"{""name_level"":""xtime""}",,thresh_last_block,t
-268008982646879,萤火虫,,Multiple Object Tracking,MOT,span,"{""name_slen"":""numtarget""}",,nc,f
-268008982655058,萤火虫,极速版,Multiple Object Tracking (Short Version),MOTS,span,"{""name_slen"":""numtarget""}",,nc,f
-270138354516037,萤火虫,快速版,Multiple Object Tracking Speeded,MOTSpd,span,"{""name_slen"":""numtarget""}",,nc,f
-332033355457413,萤火虫,学前版,Multiple Object Tracking (Pre-School),MOTK,span,"{""name_slen"":""numtarget""}",,nc,f
-581946926096709,萤火虫,QC版,Multiple Object Tracking QC,MOTQC,span,"{""name_slen"":""numtarget""}",,nc,f
-268008982663260,萤火虫PRO,,Multiple Object Tracking Pro,MOTPro,span,"{""name_slen"":""numtarget""}",,nc,f
-305132853899461,萤火虫STD,,Multiple Object Tracking Standard,MOTStd,span,"{""name_slen"":""numtarget""}",,nc,f
-268008982650963,萤火虫高级版,,Multiple Object Tracking 2,MOT2,span,"{""name_slen"":""numtarget""}",,nc,f
-268008982663278,蝴蝶照相机,,Symmetry Complex Span,SCSpan,span,"{""name_acc"":""accloc""}",,nc,f
-357179968672517,蝴蝶照相机,快速版,Symmetry Complex Span Speeded,SCSpanSpd,span,"{""name_acc"":""accloc""}",,nc,f
-581942969593925,蝴蝶照相机,QC版,Symmetry Complex Span QC,SCSpanQC,span,"{""name_acc"":""accloc""}",,nc,f
+239263721484357,节奏感知,,Rhythm Perception,RP,staircase,"list(name_level = ""xtime"")",,thresh_last_block,t
+268008982646879,萤火虫,,Multiple Object Tracking,MOT,span,"list(name_slen = ""numtarget"")",,nc,f
+268008982655058,萤火虫,极速版,Multiple Object Tracking (Short Version),MOTS,span,"list(name_slen = ""numtarget"")",,nc,f
+270138354516037,萤火虫,快速版,Multiple Object Tracking Speeded,MOTSpd,span,"list(name_slen = ""numtarget"")",,nc,f
+332033355457413,萤火虫,学前版,Multiple Object Tracking (Pre-School),MOTK,span,"list(name_slen = ""numtarget"")",,nc,f
+581946926096709,萤火虫,QC版,Multiple Object Tracking QC,MOTQC,span,"list(name_slen = ""numtarget"")",,nc,f
+268008982663260,萤火虫PRO,,Multiple Object Tracking Pro,MOTPro,span,"list(name_slen = ""numtarget"")",,nc,f
+305132853899461,萤火虫STD,,Multiple Object Tracking Standard,MOTStd,span,"list(name_slen = ""numtarget"")",,nc,f
+268008982650963,萤火虫高级版,,Multiple Object Tracking 2,MOT2,span,"list(name_slen = ""numtarget"")",,nc,f
+268008982663278,蝴蝶照相机,,Symmetry Complex Span,SCSpan,span,"list(name_acc = ""accloc"")",,nc,f
+357179968672517,蝴蝶照相机,快速版,Symmetry Complex Span Speeded,SCSpanSpd,span,"list(name_acc = ""accloc"")",,nc,f
+581942969593925,蝴蝶照相机,QC版,Symmetry Complex Span QC,SCSpanQC,span,"list(name_acc = ""accloc"")",,nc,f
 404132111275269,要点概括任务,,Movie Plot,Plot,countcorrect,,,nc,f
 268008982659141,视听反应,,Multisense,MltSns,multisense,,,mrt_mixadv,t
 324181013119877,视觉记忆学习,,Visual Memory Study,VMS,,,,,
@@ -221,9 +221,9 @@
 268008982667346,言语记忆B,,DRM Paradigm B,DRMB,drm,,,fm_dprime,f
 386185817178885,词汇学习,,Verbal Learning,VL,countcorrect,,,nc,f
 581933829226821,词汇学习,QA版,Verbal LearningQA,VLQA,countcorrect,,,nc,f
-268008982663290,词语判断,,Lexic,Lexic,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
-268008982650988,语义判断,,Semanteme,Seman,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
-581947299324229,语义判断,QA版,SemantemeQA,SemanQA,cpt,"{""name_type"":""cresp""}","{""type_signal"":""left""}",nc,f
+268008982663290,词语判断,,Lexic,Lexic,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
+268008982650988,语义判断,,Semanteme,Seman,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
+581947299324229,语义判断,QA版,SemantemeQA,SemanQA,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 268008982655098,超级秒表,极速版,Simple Reaction Time Test (Short Version),SRTS,srt,,,mrt,t
 268008982667348,超级秒表,,Simple Reaction Time Test,SRT,srt,,,mrt,t
 332029910872965,超级秒表,学前版,Simple Reaction Time Test (Pre-School),SRTK,srt,,,mrt,t
@@ -237,12 +237,12 @@
 411281158706373,远距离联想,,Remote Association Test,RAT,countcorrect,,,nc,f
 240052750955077,远距离联想A,,Remote Association Test A,RATA,countcorrect,,,nc,f
 240053165064261,远距离联想B,,Remote Association Test B,RATB,countcorrect,,,nc,f
-268008982646870,连点成画,,Five Point Test,FPT,countcorrect,"{""name_acc"":""repetition""}",,nc,f
-268008982650969,连点成画,极速版,Five Point Test (Short Version),FPTS,countcorrect,"{""name_acc"":""repetition""}",,nc,f
-270137245237317,连点成画,快速版,Five Point Test (Speeded Version),FPTSpd,countcorrect,"{""name_acc"":""repetition""}",,nc,f
-332052270973701,连点成画,学前版,Five Point Test (Pre-School),FPTK,countcorrect,"{""name_acc"":""repetition""}",,nc,f
-581940398792773,连点成画,Q版,Five Point Test Q,FPTQ,countcorrect,"{""name_acc"":""repetition""}",,nc,f
-268008982663267,连点成画PRO,,Five Point Test Pro,FPTPro,countcorrect,"{""name_acc"":""repetition""}",,nc,f
+268008982646870,连点成画,,Five Point Test,FPT,countcorrect,"list(name_acc = ""repetition"")",,nc,f
+268008982650969,连点成画,极速版,Five Point Test (Short Version),FPTS,countcorrect,"list(name_acc = ""repetition"")",,nc,f
+270137245237317,连点成画,快速版,Five Point Test (Speeded Version),FPTSpd,countcorrect,"list(name_acc = ""repetition"")",,nc,f
+332052270973701,连点成画,学前版,Five Point Test (Pre-School),FPTK,countcorrect,"list(name_acc = ""repetition"")",,nc,f
+581940398792773,连点成画,Q版,Five Point Test Q,FPTQ,countcorrect,"list(name_acc = ""repetition"")",,nc,f
+268008982663267,连点成画PRO,,Five Point Test Pro,FPTPro,countcorrect,"list(name_acc = ""repetition"")",,nc,f
 581945496748101,连续再认,QC版,Continuous Recognition Test QC,ConRecQC,cpt,,,dprime,f
 268008982642795,连续再认A,,Continuous Recognition Test A,ConRecA,cpt,,,dprime,f
 268008982642761,连续再认B,,Continuous Recognition Test B,ConRecB,cpt,,,dprime,f
@@ -256,19 +256,19 @@
 322148361573125,阅读判断,,Reading,Reading,countcorrect,,,nc,f
 268008982650955,阻挡陨石,,Earth Protect,EP,countcorrect,,,nc,f
 268008982659178,阻挡陨石,极速版,Earth Protect (Short Version),EPS,countcorrect,,,nc,f
-375903641948933,随机应变,,Number Letter Shifting,NumLet,switchcost,"{""name_switch"":""tasktype""}",,switch_cost_ies,t
-238267995484229,雪花收藏家,,Directed Search,DirectSrc,countcorrect2,"{""name_nc"":""correctnum"",""name_ne"":""falsenum""}",,nc_cor,f
+375903641948933,随机应变,,Number Letter Shifting,NumLet,switchcost,"list(name_switch = ""tasktype"")",,switch_cost_ies,t
+238267995484229,雪花收藏家,,Directed Search,DirectSrc,countcorrect2,"list(name_nc = ""correctnum"", name_ne = ""falsenum"")",,nc_cor,f
 268008982655080,顺背数,,Forward Digit Span,FDS,span,,,nc,f
 357179194073989,顺背数,快速版,Forward Digit Span Speeded,FDSSpd,span,,,nc,f
 581944970731589,顺背数,QC版本,Forward Digit Span QC,FDSQC,span,,,nc,f
 268008982655090,顺背数PRO,,Forward Digit Span Pro,FDSPro,span,,,nc,f
-268008982642788,魔术师,,N Back Test,Nback,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
-268008982655097,魔术师中级,,Two Back Test,Nback2,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
-580515744215365,魔术师中级,LQC版,Two Back Test LQC,Nback2LQC,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
-268008982642809,魔术师初级,,One Back Test,Nback1,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
-268008982663269,魔术师终极,,Four Back Test,Nback4,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
-581946396487749,魔术师终极,QA版,Four Back Test QA,Nback4QA,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
-268008982663295,魔术师高级,,Three Back Test,Nback3,nback,,"{""type_filler"":""none"", ""type_signal"":""stay""}",dprime,f
+268008982642788,魔术师,,N Back Test,Nback,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+268008982655097,魔术师中级,,Two Back Test,Nback2,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+580515744215365,魔术师中级,LQC版,Two Back Test LQC,Nback2LQC,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+268008982642809,魔术师初级,,One Back Test,Nback1,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+268008982663269,魔术师终极,,Four Back Test,Nback4,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+581946396487749,魔术师终极,QA版,Four Back Test QA,Nback4QA,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+268008982663295,魔术师高级,,Three Back Test,Nback3,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
 268008982659184,Conners行为评定量表,,Conners,Conners,sumscore,,,,
 383670005867269,CVLT记忆策略,1.0.0,California Verbal Learning Strategy,CVLTS,sumscore,,,,
 383668915696517,DRM错误记忆-记忆策略,1.0.0,DRM Strategy,DRMS,sumscore,,,,
