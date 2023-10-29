@@ -101,7 +101,7 @@
 224378628399301,多彩文字PRO,,Color Stroop Paradigm Pro,ColStrpPro,congeff,,,cong_eff_ies,t
 375933823447813,多用途A,,Multi-Use A,MUA,aut,,"list(grade_types = aut_grade_types, grade_scores = aut_grade_scores)",originality,f
 375934244000517,多用途B,,Multi-Use B,MUB,aut,,"list(grade_types = aut_grade_types, grade_scores = aut_grade_scores)",originality,f
-381560965628805,天马行空,,Divergent Association Task,DAT,dat,,list(dists = dat_dists),score,f
+381560965628805,天马行空,,Divergent Association Task,DAT,dat,,list(w2v = dat_w2v),score,f
 268008982642786,太空飞船,极速版,Flanker Test (Short Version),FlkrS,congeff,,,cong_eff_ies,t
 268008982655061,太空飞船,,Flanker Test,Flkr,congeff,,,cong_eff_ies,t
 270137896329285,太空飞船,快速版,Flanker Test Speeded,FlkrSpd,congeff,,,cong_eff_ies,t
