@@ -2,6 +2,7 @@
 
 * Added preprocessing function for creativity related tasks.
 * Added preprocessing function for category retrieval fluency tasks.
+* Supported multiple main indices.
 
 # data.iquizoo 2023.10.22
 
