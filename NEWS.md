@@ -1,6 +1,7 @@
 # data.iquizoo 2023.10.29
 
 * Added preprocessing function for creativity related tasks.
+* Added preprocessing function for category retrieval fluency tasks.
 
 # data.iquizoo 2023.10.22
 
