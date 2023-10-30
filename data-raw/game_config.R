@@ -12,12 +12,18 @@ game_config <- readr::read_csv(
         .x,
         ~ if (!is.na(.x)) rlang::parse_expr(.x)
       )
+    ),
+    across(
+      starts_with("index"),
+      ~ stringr::str_split(.x, ";") |>
+        purrr::map(readr::parse_guess)
     )
   )
 game_info <- game_config |>
   select(starts_with("game"))
 game_indices <- game_config |>
   select(game_id, index_main, index_reverse) |>
+  unnest(cols = c(index_main, index_reverse)) |>
   drop_na()
 game_preproc <- game_config |>
   select(game_id, prep_fun_name, input, extra) |>
