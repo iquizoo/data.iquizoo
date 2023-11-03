@@ -18,6 +18,9 @@ A data frame with 350 rows of the following variables:
 
 \item{game_name_abbr}{English game name abbreviated, added by researchers
 (esp. by me).}
+
+\item{game_id_parallel}{Parallel form game id. If no parallel form, this
+will be \code{NA}.}
 }
 }
 \usage{

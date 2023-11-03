@@ -160,8 +160,8 @@
 581942568812869,方向检测,QC版,Filtering Orientation QC,FiltOrientQC,capacity,,,k,f
 268008982651006,方块速记,,Spatial Pattern Memory,SPM,span,,,nc,f
 332030816232325,方块速记,学前版,Spatial Pattern Memory (Pre-School),SPMK,span,,,nc,f
-268008982667387,时空相机A,,Spatiotemporal Memory A,SpatTempA,locmem2,,,nc_loc,f
-268008982663261,时空相机B,,Spatiotemporal Memory B,SpatTempB,locmem2,,,nc_loc,f
+268008982667387,时空相机A,,Spatiotemporal Memory Standard,SpatTempStd,locmem2,,,nc_loc,f
+268008982663261,时空相机B,,Spatiotemporal Memory Remain,SpatTempRem,locmem2,,,nc_loc,f
 239264243732549,时长分辨,,Duration Discrimination,DD,staircase,"list(name_level = ""variatime"")",,thresh_last_block,t
 383366895919877,时间记忆任务,,Temporal Memory Test,TMT,,,,,
 239263162577477,时间顺序判断,,Temporal Order Judgment,TOJ,staircase,"list(name_level = ""soa"")",,thresh_last_block,t
@@ -196,7 +196,7 @@
 332028191015813,舒尔特方格初级,学前版,Schulte Grid Junior (Pre-School),SchulteJrK,countcorrect2,,,nc_cor,f
 268008982667380,舒尔特方格（中级）,,Schulte Grid Medium,SchulteMed,countcorrect2,,,nc_cor,f
 268008982659173,舒尔特方格（初级）,,Schulte Grid Junior,SchulteJr,countcorrect2,,,nc_cor,f
-269324226523205,舒尔特方格（科研）,,Schulte Grid Medium,SchulteMed2,countcorrect2,,,nc_cor,f
+269324226523205,舒尔特方格（科研）,,Schulte Grid Medium 2,SchulteMed2,countcorrect2,,,nc_cor,f
 268008982659152,舒尔特方格（高级）,,Schulte Grid Advanced,SchulteAdv,countcorrect2,,,nc_cor,f
 375934626087813,色彩检测,,Filtering Color,FiltColor,capacity,,,k,f
 239263721484357,节奏感知,,Rhythm Perception,RP,staircase,"list(name_level = ""xtime"")",,thresh_last_block,t

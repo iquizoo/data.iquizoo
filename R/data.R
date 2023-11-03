@@ -15,6 +15,9 @@
 #'
 #'   \item{game_name_abbr}{English game name abbreviated, added by researchers
 #'     (esp. by me).}
+#'
+#'   \item{game_id_parallel}{Parallel form game id. If no parallel form, this
+#'     will be `NA`.}
 #' }
 "game_info"
 

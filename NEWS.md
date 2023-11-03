@@ -1,3 +1,7 @@
+# data.iquizoo 2023.11.03
+
+* Added `game_id_parallel` to track parallel forms of games.
+
 # data.iquizoo 2023.10.29
 
 * Added preprocessing function for creativity related tasks.

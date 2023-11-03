@@ -20,7 +20,23 @@ game_config <- readr::read_csv(
     )
   )
 game_info <- game_config |>
-  select(starts_with("game"))
+  select(starts_with("game")) |>
+  separate_wider_regex(
+    game_name_en,
+    c(game_name_stem = ".+", parallel = "(?<=\\s)[A-F]$"),
+    too_few = "align_start",
+    cols_remove = FALSE
+  ) |>
+  mutate(
+    game_id_parallel = if_else(
+      n() > 1 & row_number(parallel) > 1,
+      game_id[row_number(parallel) == 1],
+      bit64::as.integer64(NA)
+    ),
+    .by = game_name_stem
+  ) |>
+  select(-game_name_stem, -parallel)
+
 game_indices <- game_config |>
   select(game_id, index_main, index_reverse) |>
   unnest(cols = c(index_main, index_reverse)) |>
