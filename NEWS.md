@@ -1,3 +1,7 @@
+# data.iquizoo 2023.11.04
+
+* Support `type` argument in `match_preproc()` to specify which type of join to use.
+
 # data.iquizoo 2023.11.03
 
 * Added `game_id_parallel` to track parallel forms of games.
