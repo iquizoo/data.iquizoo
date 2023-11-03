@@ -4,10 +4,15 @@
 \alias{match_preproc}
 \title{Match pre-processing parameters}
 \usage{
-match_preproc(games)
+match_preproc(games, type = c("left", "inner", "semi"))
 }
 \arguments{
 \item{games}{A \link{data.frame} contains the games to match parameters.}
+
+\item{type}{The matching type. Mimicking the names of \link[dplyr:mutate-joins]{dplyr::join}, so the
+name will match the same type of join. Note the \code{"semi"} option will also
+call \code{\link[dplyr:filter-joins]{dplyr::semi_join()}} will just keep those matched rows without data
+combing.}
 }
 \value{
 A \link{data.frame} added pre-processing parameters. Note if there is no
