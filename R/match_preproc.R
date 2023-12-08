@@ -8,10 +8,13 @@
 #'   name will match the same type of join. Note the `"semi"` option will also
 #'   call [dplyr::semi_join()] will just keep those matched rows without data
 #'   combing.
+#' @param rm_tagged Whether to remove games with a tagged pre-processing
+#'   function. Default is `FALSE`.
 #' @return A [data.frame] added pre-processing parameters. Note if there is no
 #'   match for a game, the matched parameters are empty vectors (e.g., `NULL`).
 #' @export
-match_preproc <- function(games, type = c("left", "inner", "semi")) {
+match_preproc <- function(games, type = c("left", "inner", "semi"),
+                          rm_tagged = FALSE) {
   if (!requireNamespace("bit64", quietly = TRUE)) {
     stop("`bit64` package must be installed to continue.")
   }
@@ -23,6 +26,9 @@ match_preproc <- function(games, type = c("left", "inner", "semi")) {
   name_key <- "game_id"
   if (!utils::hasName(games, name_key)) {
     stop("`game_id` column must be present.")
+  }
+  if (rm_tagged) {
+    game_preproc <- game_preproc[is.na(game_preproc$tag), ]
   }
   join(
     games,

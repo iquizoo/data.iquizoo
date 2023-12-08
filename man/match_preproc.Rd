@@ -4,7 +4,7 @@
 \alias{match_preproc}
 \title{Match pre-processing parameters}
 \usage{
-match_preproc(games, type = c("left", "inner", "semi"))
+match_preproc(games, type = c("left", "inner", "semi"), rm_tagged = FALSE)
 }
 \arguments{
 \item{games}{A \link{data.frame} contains the games to match parameters.}
@@ -13,6 +13,9 @@ match_preproc(games, type = c("left", "inner", "semi"))
 name will match the same type of join. Note the \code{"semi"} option will also
 call \code{\link[dplyr:filter-joins]{dplyr::semi_join()}} will just keep those matched rows without data
 combing.}
+
+\item{rm_tagged}{Whether to remove games with a tagged pre-processing
+function. Default is \code{FALSE}.}
 }
 \value{
 A \link{data.frame} added pre-processing parameters. Note if there is no

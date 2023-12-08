@@ -14,3 +14,14 @@ test_that("Match correctly", {
     nrow() |>
     expect_equal(3)
 })
+
+test_that("`rm_tagged` work correctly", {
+  game_preproc |>
+    dplyr::filter(!is.na(tag)) |>
+    dplyr::slice(1) |>
+    dplyr::select(game_id) |>
+    match_preproc(type = "left", rm_tagged = TRUE) |>
+    expect_named(c("game_id", "prep_fun", "tag", "input", "extra")) |>
+    .subset2("prep_fun") |>
+    expect_identical(list(NULL))
+})
