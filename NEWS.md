@@ -1,3 +1,8 @@
+# data.iquizoo 2023.12.08
+
+* Support tagging specific pre-processing functions. When a pre-processing function is tagged, it signals that it is experimental and may not work as expected. This is useful for newly developed pre-processing functions.
+* Add `rm_tagged` argument in `match_preproc()` to remove tagged pre-processing functions.
+
 # data.iquizoo 2023.11.04
 
 * Support `type` argument in `match_preproc()` to specify which type of join to use.
