@@ -52,8 +52,8 @@
 224377200398533,候鸟迁徙PRO,,Birds Migration Pro,BirdsPro,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 268008982655076,关系判断A,,Relation Judgment A,RelJudgA,countcorrect,,,nc,f
 268008982655087,关系判断B,,Relation Judgment B,RelJudgB,countcorrect,,,nc,f
-375932568191877,动词产生A,,Verb Generation A,VGA,vg,,list(dists = vg_dists),score,f
-375932921029381,动词产生B,,Verb Generation B,VGB,vg,,list(dists = vg_dists),score,f
+375932568191877,动词产生A,,Verb Generation A,VGA,vg*,,list(dists = vg_dists),score,f
+375932921029381,动词产生B,,Verb Generation B,VGB,vg*,,list(dists = vg_dists),score,f
 268008982642812,卡片分类,,Card Sorting,CardSort,switchcost,,,switch_cost_ies,t
 332029386941317,卡片分类,学前版,Card Sorting (Pre-School),CardSortK,switchcost,,,switch_cost_ies,t
 406627466577093,卡片分类,快速版,Card Sorting (Short),CardSortS,switchcost,,,switch_cost_ies,t
@@ -99,9 +99,9 @@
 268008982642800,多彩文字,,Color Stroop Paradigm,ColStrp,congeff,,,cong_eff_ies,t
 581945381114181,多彩文字,QA版,Color Stroop Paradigm QA,ColStrpQA,congeff,,,cong_eff_ies,t
 224378628399301,多彩文字PRO,,Color Stroop Paradigm Pro,ColStrpPro,congeff,,,cong_eff_ies,t
-375933823447813,多用途A,,Multi-Use A,MUA,aut,,"list(grade_types = aut_grade_types, grade_scores = aut_grade_scores)",originality,f
-375934244000517,多用途B,,Multi-Use B,MUB,aut,,"list(grade_types = aut_grade_types, grade_scores = aut_grade_scores)",originality,f
-381560965628805,天马行空,,Divergent Association Task,DAT,dat,,list(w2v = dat_w2v),score,f
+375933823447813,多用途A,,Multi-Use A,MUA,aut*,,"list(grade_types = aut_grade_types, grade_scores = aut_grade_scores)",originality,f
+375934244000517,多用途B,,Multi-Use B,MUB,aut*,,"list(grade_types = aut_grade_types, grade_scores = aut_grade_scores)",originality,f
+381560965628805,天马行空,,Divergent Association Task,DAT,dat*,,list(w2v = dat_w2v),score,f
 268008982642786,太空飞船,极速版,Flanker Test (Short Version),FlkrS,congeff,,,cong_eff_ies,t
 268008982655061,太空飞船,,Flanker Test,Flkr,congeff,,,cong_eff_ies,t
 270137896329285,太空飞船,快速版,Flanker Test Speeded,FlkrSpd,congeff,,,cong_eff_ies,t

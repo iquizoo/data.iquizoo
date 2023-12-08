@@ -44,6 +44,11 @@ game_indices <- game_config |>
 game_preproc <- game_config |>
   select(game_id, prep_fun_name, input, extra) |>
   filter(!is.na(prep_fun_name)) |>
+  separate_wider_regex(
+    prep_fun_name,
+    c(prep_fun_name = ".+", tag = "\\W+"),
+    too_few = "align_start"
+  ) |>
   mutate(
     prep_fun = syms(prep_fun_name),
     .keep = "unused",
