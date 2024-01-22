@@ -1,3 +1,7 @@
+# data.iquizoo 2024.01.23
+
+* Added `screen_indices()` to screen out unused indices.
+
 # data.iquizoo 2024.01.22
 
 * Added `match_info()` to extract different pieces of game information.

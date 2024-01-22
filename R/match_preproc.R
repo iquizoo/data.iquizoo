@@ -15,12 +15,7 @@
 #' @export
 match_preproc <- function(games, type = c("left", "inner", "semi"),
                           rm_tagged = FALSE) {
-  if (!requireNamespace("bit64", quietly = TRUE)) {
-    stop("`bit64` package must be installed to continue.")
-  }
-  if (!requireNamespace("dplyr", quietly = TRUE)) {
-    stop("`dplyr` package must be installed to continue.")
-  }
+  requireNamespace("bit64")
   type <- match.arg(type)
   join <- utils::getFromNamespace(paste0(type, "_join"), "dplyr")
   name_key <- "game_id"

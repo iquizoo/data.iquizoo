@@ -6,9 +6,7 @@
 #' @return The matched information.
 #' @export
 match_info <- function(x, from = "game_name_abbr", to = "game_id") {
-  if (!requireNamespace("bit64", quietly = TRUE)) {
-    stop("`bit64` package must be installed to continue.") # nocov
-  }
+  requireNamespace("bit64")
   matched <- match(x, data.iquizoo::game_info[[from]])
   if (anyNA(matched)) {
     stop("Some of the information is not matched.")
