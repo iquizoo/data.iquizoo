@@ -1,3 +1,7 @@
+# data.iquizoo 2024.01.22
+
+* Added `match_info()` to extract different pieces of game information.
+
 # data.iquizoo 2023.12.08
 
 * Support tagging specific pre-processing functions. When a pre-processing function is tagged, it signals that it is experimental and may not work as expected. This is useful for newly developed pre-processing functions.
