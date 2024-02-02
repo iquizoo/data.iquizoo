@@ -1,3 +1,7 @@
+# data.iquizoo 2024.02.03
+
+* Added tasks used in recent training.
+
 # data.iquizoo 2024.01.23
 
 * Added `screen_indices()` to screen out unused indices.

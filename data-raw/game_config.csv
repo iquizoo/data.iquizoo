@@ -50,6 +50,7 @@
 580514423279941,候鸟迁徙,LQ版,Birds Migration LQ,BirdsLQ,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 581942506975557,候鸟迁徙,Q版,Birds Migration Q,BirdsQ,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 224377200398533,候鸟迁徙PRO,,Birds Migration Pro,BirdsPro,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
+650220772778053,候鸟飞行,,Birds Migration Switch,BirdsSwt,switchcost,,,switch_cost_ies,t
 268008982655076,关系判断A,,Relation Judgment A,RelJudgA,countcorrect,,,nc,f
 268008982655087,关系判断B,,Relation Judgment B,RelJudgB,countcorrect,,,nc,f
 375932568191877,动词产生A,,Verb Generation A,VGA,vg*,,list(dists = vg_dists),score,f
@@ -81,6 +82,7 @@
 268008982671437,图形推理A,,Nonverbal Reasoning A,NVRA,countcorrect,,,nc,f
 268008982642769,图形推理B,,Nonverbal Reasoning B,NVRB,countcorrect,,,nc,f
 268008982667382,图形推理高级,,Nonverbal Reasoning Advanced,NVRAdv,countcorrect,,,nc,f
+651644141412485,图形照相机,,Symmetry Complex Span Figure,SCSpanFig,span,"list(name_acc = ""accloc"")",,nc,f
 388595402609413,图片再认任务,,Picture Recognition Test,PRT,,,,,
 268008982642765,图片记忆,,Behavioral Pattern Separation,BPS,bps,,,bps_score,f
 268008982671439,图片记忆A,,Behavioral Pattern Separation A,BPSA,bps,,,bps_score,f
@@ -200,12 +202,14 @@
 268008982659152,舒尔特方格（高级）,,Schulte Grid Advanced,SchulteAdv,countcorrect2,,,nc_cor,f
 375934626087813,色彩检测,,Filtering Color,FiltColor,capacity,,,k,f
 239263721484357,节奏感知,,Rhythm Perception,RP,staircase,"list(name_level = ""xtime"")",,thresh_last_block,t
+651643568341061,花瓣照相机,,Symmetry Complex Span Petal,SCSpanPet,span,"list(name_acc = ""accloc"")",,nc,f
 268008982646879,萤火虫,,Multiple Object Tracking,MOT,span,"list(name_slen = ""numtarget"")",,nc,f
 268008982655058,萤火虫,极速版,Multiple Object Tracking (Short Version),MOTS,span,"list(name_slen = ""numtarget"")",,nc,f
 270138354516037,萤火虫,快速版,Multiple Object Tracking Speeded,MOTSpd,span,"list(name_slen = ""numtarget"")",,nc,f
 332033355457413,萤火虫,学前版,Multiple Object Tracking (Pre-School),MOTK,span,"list(name_slen = ""numtarget"")",,nc,f
 581946926096709,萤火虫,QC版,Multiple Object Tracking QC,MOTQC,span,"list(name_slen = ""numtarget"")",,nc,f
 268008982663260,萤火虫PRO,,Multiple Object Tracking Pro,MOTPro,span,"list(name_slen = ""numtarget"")",,nc,f
+657318547337349,萤火虫PROL,,Multiple Object Tracking Pro Long,MOTProL,span,"list(name_slen = ""numtarget"")",,nc,f
 305132853899461,萤火虫STD,,Multiple Object Tracking Standard,MOTStd,span,"list(name_slen = ""numtarget"")",,nc,f
 268008982650963,萤火虫高级版,,Multiple Object Tracking 2,MOT2,span,"list(name_slen = ""numtarget"")",,nc,f
 268008982663278,蝴蝶照相机,,Symmetry Complex Span,SCSpan,span,"list(name_acc = ""accloc"")",,nc,f
@@ -221,6 +225,7 @@
 268008982667346,言语记忆B,,DRM Paradigm B,DRMB,drm,,,fm_dprime,f
 386185817178885,词汇学习,,Verbal Learning,VL,countcorrect,,,nc,f
 581933829226821,词汇学习,QA版,Verbal LearningQA,VLQA,countcorrect,,,nc,f
+638908440011077,词汇学习,听力版,Verbal Learning Audio,VLAud,countcorrect,,,nc,f
 268008982663290,词语判断,,Lexic,Lexic,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 268008982650988,语义判断,,Semanteme,Seman,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 581947299324229,语义判断,QA版,SemantemeQA,SemanQA,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
@@ -247,6 +252,12 @@
 268008982642795,连续再认A,,Continuous Recognition Test A,ConRecA,cpt,,,dprime,f
 268008982642761,连续再认B,,Continuous Recognition Test B,ConRecB,cpt,,,dprime,f
 281039429226565,连续再认PRO,,Continuous Recognition Test Pro,ConRecPro,cpt,,,dprime,f
+657302597378181,连续再认PROA,,Continuous Recognition Test Pro A,ConRecProA,cpt,,,dprime,f
+657303689097285,连续再认PROB,,Continuous Recognition Test Pro B,ConRecProB,cpt,,,dprime,f
+657304000819525,连续再认PROC,,Continuous Recognition Test Pro C,ConRecProC,cpt,,,dprime,f
+657304333267077,连续再认PROD,,Continuous Recognition Test Pro D,ConRecProD,cpt,,,dprime,f
+657304714678405,连续再认PROE,,Continuous Recognition Test Pro E,ConRecProE,cpt,,,dprime,f
+657305004490821,连续再认PROF,,Continuous Recognition Test Pro F,ConRecProF,cpt,,,dprime,f
 268008982659166,速算师（中级）,,Calculation Medium,CalcMed,countcorrect,,,nc,f
 349294460711685,速算师（中级）,快速版,Calculation Medium (Short),CalcMedS,countcorrect,,,nc,f
 581943246745925,速算师（中级）,QA版,Calculation Medium QA,CalcMedQA,countcorrect,,,nc,f
