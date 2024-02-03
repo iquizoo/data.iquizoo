@@ -1,3 +1,7 @@
+# data.iquizoo 2024.02.03-1
+
+* Fixed pre-processing functions for one newly added game.
+
 # data.iquizoo 2024.02.03
 
 * Added tasks used in recent training.

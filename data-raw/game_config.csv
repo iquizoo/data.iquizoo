@@ -50,7 +50,7 @@
 580514423279941,候鸟迁徙,LQ版,Birds Migration LQ,BirdsLQ,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 581942506975557,候鸟迁徙,Q版,Birds Migration Q,BirdsQ,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 224377200398533,候鸟迁徙PRO,,Birds Migration Pro,BirdsPro,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
-650220772778053,候鸟飞行,,Birds Migration Switch,BirdsSwt,switchcost,,,switch_cost_ies,t
+650220772778053,候鸟飞行,,Birds Migration Congruency,BirdsCong,congeff,"list(name_cong = ""stimtype"")",,cong_eff_ies,t
 268008982655076,关系判断A,,Relation Judgment A,RelJudgA,countcorrect,,,nc,f
 268008982655087,关系判断B,,Relation Judgment B,RelJudgB,countcorrect,,,nc,f
 375932568191877,动词产生A,,Verb Generation A,VGA,vg*,,list(dists = vg_dists),score,f
