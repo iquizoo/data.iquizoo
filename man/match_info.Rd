@@ -4,14 +4,14 @@
 \alias{match_info}
 \title{Match specific piece of information of games}
 \usage{
-match_info(x, from = "game_name_abbr", to = "game_id")
+match_info(x, to, from = "game_id")
 }
 \arguments{
 \item{x}{The known information of games.}
 
-\item{from}{The name of the column of the known information.}
-
 \item{to}{The name of the column of the information to be matched.}
+
+\item{from}{The name of the column of the known information.}
 }
 \value{
 The matched information.
