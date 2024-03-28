@@ -1,3 +1,7 @@
+# data.iquizoo 2024.03.28
+
+* Added recent new games without any further names.
+
 # data.iquizoo 2024.02.23
 
 * Enhanced parameters for `match_info()`.
