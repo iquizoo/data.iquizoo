@@ -41,6 +41,7 @@
 270136914280517,位置记忆,快速版,Spatial Short-term Memory (Short),SSTMS,span,,,nc,f
 332030550139653,位置记忆,学前版,Spatial Short-term Memory (Pre-School),SSTMK,span,,,nc,f
 581946301952069,位置记忆,Q版,Spatial Short-term Memory Q,SSTMQ,span,,,nc,f
+655178038923333,位置记忆,训练版,,,,,,,
 268008982642798,位置记忆PRO,,Spatial Short-term Memory Pro,SSTMPro,span,,,nc,f
 268008982655063,倒背数,,Backward Digit Span,BDS,span,,,nc,f
 358130783630213,倒背数,快速版,Backward Digit Span (Pre-School),BDSK,span,,,nc,f
@@ -49,6 +50,7 @@
 349317927539461,候鸟迁徙,快速版,Birds Migration (Short),BirdsS,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 580514423279941,候鸟迁徙,LQ版,Birds Migration LQ,BirdsLQ,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 581942506975557,候鸟迁徙,Q版,Birds Migration Q,BirdsQ,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
+655078038389061,候鸟迁徙,训练版,,,,,,,
 224377200398533,候鸟迁徙PRO,,Birds Migration Pro,BirdsPro,complexswitch,,,cong_eff_ies;switch_cost_ies,t;t
 650220772778053,候鸟飞行,,Birds Migration Congruency,BirdsCong,congeff,"list(name_cong = ""stimtype"")",,cong_eff_ies,t
 268008982655076,关系判断A,,Relation Judgment A,RelJudgA,countcorrect,,,nc,f
@@ -61,6 +63,7 @@
 581939396796485,卡片分类,Q版,Card Sorting Q,CardSortQ,switchcost,,,switch_cost_ies,t
 224377872388293,卡片分类PRO,,Card Sorting Pro,CardSortPro,switchcost,,,switch_cost_ies,t
 305133401714885,卡片分类STD,,Card Sorting Standard,CardSortStd,switchcost,,,switch_cost_ies,t
+640240594624581,卡片分类WSCT,,,,,,,,
 238239294447813,变戏法,,AntiSaccade,AntiSac,crt,,,ies,t
 268008982663247,变色魔块,,Stop Signal,StopSig,stopsignal,,,ssrt,t
 336274132898565,变色魔块,学前版,Stop Signal (Pre-School),StopSigK,stopsignal,,,ssrt,t
@@ -83,6 +86,7 @@
 268008982642769,图形推理B,,Nonverbal Reasoning B,NVRB,countcorrect,,,nc,f
 268008982667382,图形推理高级,,Nonverbal Reasoning Advanced,NVRAdv,countcorrect,,,nc,f
 651644141412485,图形照相机,,Symmetry Complex Span Figure,SCSpanFig,span,"list(name_acc = ""accloc"")",,nc,f
+655160858611781,图形照相机,训练版,,,,,,,
 388595402609413,图片再认任务,,Picture Recognition Test,PRT,,,,,
 268008982642765,图片记忆,,Behavioral Pattern Separation,BPS,bps,,,bps_score,f
 268008982671439,图片记忆A,,Behavioral Pattern Separation A,BPSA,bps,,,bps_score,f
@@ -98,6 +102,7 @@
 291684371972165,外星语言-初级,,Associative Memory Language Muted Junior,AscMemMJr,countcorrect,"list(name_acc = ""correctness"")",,nc,f
 380176247862021,多变计数师,,Reflective Counting,ReflectCount,switchcost,,,switch_cost_ies,t
 581934263337285,多变计数师,Q版,Reflective Counting Q,ReflectCountQ,switchcost,,,switch_cost_ies,t
+655145331503173,多变计数师,训练版,,,,,,,
 268008982642800,多彩文字,,Color Stroop Paradigm,ColStrp,congeff,,,cong_eff_ies,t
 581945381114181,多彩文字,QA版,Color Stroop Paradigm QA,ColStrpQA,congeff,,,cong_eff_ies,t
 224378628399301,多彩文字PRO,,Color Stroop Paradigm Pro,ColStrpPro,congeff,,,cong_eff_ies,t
@@ -116,9 +121,11 @@
 268008982667381,密码箱,,Keep Track,KeepTrack,span,"list(name_slen = ""length"")",,nc,f
 268008982646863,察颜观色,,Faces Reading,Faces,complexswitch,,,switch_cost_ies,t
 581948589850949,察颜观色,Q版,Faces Reading Q,FacesQ,complexswitch,,,switch_cost_ies,t
+654831810031685,察颜观色,训练版,,,,,,,
 224376556507589,察颜观色PRO,,Faces Reading Pro,FacesPro,complexswitch,,,switch_cost_ies,t
 265086851706949,小狗回家,,NeuroRacer,Racer,racer,,,mean_score,f
 581934694998341,小狗回家,QA版,NeuroRacerQA,RacerQA,racer,,,mean_score,f
+605549418979653,小狗回家,无宝石版,,,,,,,
 268008982659145,平衡达人,,Tumbler,TBLR,countcorrect,,,nc,f
 324179001000709,平面展开,,Unfolding,Unfolding,countcorrect,,,nc,f
 304834943373509,幸运小球,,Operation Complex Span,OCSpan,span,"list(name_acc = ""acclet"")",,nc,f
@@ -132,8 +139,12 @@
 580503231078469,快速归类,LQ版,Choice Reaction Time LQ,CRTLQ,crt,,,ies,t
 581939901575493,快速归类,Q版,Choice Reaction Time Q,CRTQ,crt,,,ies,t
 224374703641029,快速归类PRO,,Choice Reaction Time Pro,CRTPro,crt,,,ies,t
+627117861392453,情绪记忆,,,,,,,,
+627825768022341,情绪识别,,,,,,,,
 240406295777861,我是大厨,,Modified SynWin,MSynWin,synwin,,,score_total,f
+654850921660485,我是大厨,训练版,,,,,,,
 225528186135045,打靶场,,Rotation Span,RSpan,span,"list(name_acc = ""accarrow"")",,nc,f
+655178470338885,打靶场,训练版,,,,,,,
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,,dprime,f
 268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 268008982667388,按图索骥,,Hidden Object Paradigm,HOP,refframe,,,mean_log_err_both,t
@@ -178,6 +189,7 @@
 279330041741381,欢乐餐厅PRO,,Associative Memory Pro,AscMemPro,countcorrect,"list(name_acc = ""correctness"")",,nc,f
 268008982659177,河道捕鱼,,One Back Fishing,OneBackFish,sumweighted,,,nc_weighted,f
 332032592180101,河道捕鱼,学前版,One Back Fishing (Pre-School),OneBackFishK,sumweighted,,,nc_weighted,f
+640241418522693,波士顿命名任务,,,,,,,,
 380174783693701,注意指向,,Attention Orientation,AttenOrient,ant_orient,,,cong_eff_ies,t
 380173315257221,注意警觉,,Attention Alert,AttenAlert,ant_alert,,,cong_eff_ies,t
 268008982667350,火眼金睛,,Attention Search,AttSrc,countcorrect,,,nc,f
@@ -203,6 +215,7 @@
 375934626087813,色彩检测,,Filtering Color,FiltColor,capacity,,,k,f
 239263721484357,节奏感知,,Rhythm Perception,RP,staircase,"list(name_level = ""xtime"")",,thresh_last_block,t
 651643568341061,花瓣照相机,,Symmetry Complex Span Petal,SCSpanPet,span,"list(name_acc = ""accloc"")",,nc,f
+655161488109893,花瓣照相机,训练版,,,,,,,
 268008982646879,萤火虫,,Multiple Object Tracking,MOT,span,"list(name_slen = ""numtarget"")",,nc,f
 268008982655058,萤火虫,极速版,Multiple Object Tracking (Short Version),MOTS,span,"list(name_slen = ""numtarget"")",,nc,f
 270138354516037,萤火虫,快速版,Multiple Object Tracking Speeded,MOTSpd,span,"list(name_slen = ""numtarget"")",,nc,f
@@ -215,6 +228,7 @@
 268008982663278,蝴蝶照相机,,Symmetry Complex Span,SCSpan,span,"list(name_acc = ""accloc"")",,nc,f
 357179968672517,蝴蝶照相机,快速版,Symmetry Complex Span Speeded,SCSpanSpd,span,"list(name_acc = ""accloc"")",,nc,f
 581942969593925,蝴蝶照相机,QC版,Symmetry Complex Span QC,SCSpanQC,span,"list(name_acc = ""accloc"")",,nc,f
+655180212236357,蝴蝶照相机,训练版,,,,,,,
 404132111275269,要点概括任务,,Movie Plot,Plot,countcorrect,,,nc,f
 268008982659141,视听反应,,Multisense,MltSns,multisense,,,mrt_mixadv,t
 324181013119877,视觉记忆学习,,Visual Memory Study,VMS,,,,,
@@ -263,11 +277,13 @@
 581943246745925,速算师（中级）,QA版,Calculation Medium QA,CalcMedQA,countcorrect,,,nc,f
 268008982655068,速算师（初级）,,Calculation Junior,CalcJr,countcorrect,,,nc,f
 581949184409925,速算师（初级）,QC版,Calculation Junior QC,CalcJrQC,countcorrect,,,nc,f
+673901518094661,金币识别,,,,,,,,
 268008982642797,钓鱼高手,,Delay Gratification,DG,igt,,,perc_good,f
 322148361573125,阅读判断,,Reading,Reading,countcorrect,,,nc,f
 268008982650955,阻挡陨石,,Earth Protect,EP,countcorrect,,,nc,f
 268008982659178,阻挡陨石,极速版,Earth Protect (Short Version),EPS,countcorrect,,,nc,f
 375903641948933,随机应变,,Number Letter Shifting,NumLet,switchcost,"list(name_switch = ""tasktype"")",,switch_cost_ies,t
+655146133745989,随机应变,训练版,,,,,,,
 238267995484229,雪花收藏家,,Directed Search,DirectSrc,countcorrect2,"list(name_nc = ""correctnum"", name_ne = ""falsenum"")",,nc_cor,f
 268008982655080,顺背数,,Forward Digit Span,FDS,span,,,nc,f
 357179194073989,顺背数,快速版,Forward Digit Span Speeded,FDSSpd,span,,,nc,f
@@ -280,12 +296,17 @@
 268008982663269,魔术师终极,,Four Back Test,Nback4,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
 581946396487749,魔术师终极,QA版,Four Back Test QA,Nback4QA,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
 268008982663295,魔术师高级,,Three Back Test,Nback3,nback,,"list(type_filler = ""none"", type_signal = ""stay"")",dprime,f
+605300701503557,魔法兔子,,,,,,,,
+651344159232133,CBF-PI-B问卷,,,,,,,,
+652759562826053,CHI问卷,,,,,,,,
 268008982659184,Conners行为评定量表,,Conners,Conners,sumscore,,,,
 383670005867269,CVLT记忆策略,1.0.0,California Verbal Learning Strategy,CVLTS,sumscore,,,,
 383668915696517,DRM错误记忆-记忆策略,1.0.0,DRM Strategy,DRMS,sumscore,,,,
 268008982650982,MBTI职业性格测试,,MBTI,MBTI,sumscore,,,,
 268008982671435,MINIKID,,MINIKID,MINIKID,sumscore,,,,
 268008982646905,SAGES图形推理测验,,SAGES,SAGES,countcorrect,,,nc,f
+651694737588549,STAI-S问卷,,,,,,,,
+652005365989701,STAI-T问卷,,,,,,,,
 386597615997829,个人背景信息调查,1.0.0,Personal Information Questionnaire,PIQ,,,,,
 268008982667372,中国少年非智力个性心理特征问卷,,Non-intelligence,NonIntel,sumscore,,,,
 268008982659164,中学生健康量表,,Mental Health,MH,sumscore,,,,
@@ -304,6 +325,7 @@
 279044271042629,元认知意识问卷,,Metacognition,Meta,sumscore,,,,
 386157589676805,创新人格问卷,1.0.0,Creative Personality Questionnaire,CPQ,sumscore,,,,
 268008982646911,压力事件,,Stress,Stress,sumscore,,,,
+345366581465989,合格图形推理,1,,,,,,,
 391556354638725,困倦程度,,Sleepiness,Sleepiness,,,,,
 396559862781125,在线实验被试须知,1.0.0,Notice,Notice,,,,,
 268008982655060,在线认知测评知情同意书,,Consent,Consent,,,,,
@@ -329,6 +351,7 @@
 268008982646900,成长型思维量表,,Mindset,Mindset,sumscore,,,,
 268008982659142,执行功能行为评定量表,,Executive Function Evaluation,EFEval,sumscore,,,,
 388200929063813,推理测验,1.0.0,Plot Reasoning,PlotR,,,,,
+641344773009477,教师评价问卷,,,,,,,,
 372015018025733,新冠感染与恢复详细情况调查,1.0.0,COVID Questionnaire,COVID,,,,,
 383626886017797,日常记忆表现,1.0.0,Everyday Memory Questionnaire,EMQ,sumscore,,,,
 358858000081797,明尼苏达问卷,,Minnesota Multiphasic Personality Inventory,MMPI,sumscore,,,,
