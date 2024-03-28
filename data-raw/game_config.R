@@ -1,6 +1,28 @@
 ## code to prepare `game_info` and `game_indices` dataset goes here
 library(dplyr)
 library(tidyr)
+games <- tarflow.iquizoo::fetch_iquizoo(
+  readr::read_file("data-raw/contents.sql")
+)
+game_config_existed <- readr::read_csv(
+  "data-raw/game_config.csv",
+  col_types = readr::cols(game_id = "I"),
+  na = "NA"
+)
+games_exclude <- readr::read_csv(
+  "data-raw/games_exclude.csv",
+  col_types = readr::cols(game_id = "I"),
+  na = "NA"
+)
+games |>
+  filter(game_type %in% c(1, 3)) |>
+  anti_join(games_exclude, by = "game_id") |>
+  distinct(game_id, game_name, game_name_ver) |>
+  full_join(
+    game_config_existed,
+    by = join_by(game_id, game_name, game_name_ver)
+  ) |>
+  readr::write_excel_csv("data-raw/game_config.csv", quote = "needed", na = "")
 game_config <- readr::read_csv(
   "data-raw/game_config.csv",
   col_types = readr::cols(game_id = "I")
