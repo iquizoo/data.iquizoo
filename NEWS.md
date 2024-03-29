@@ -1,3 +1,7 @@
+# data.iquizoo 2024.03.29-1
+
+* Add `fail_on_missing` to `match_info()` to control whether to fail when found unmatched ids.
+
 # data.iquizoo 2024.03.29
 
 * Use `memory_score` index for DRM task.
