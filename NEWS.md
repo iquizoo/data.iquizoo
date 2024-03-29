@@ -1,3 +1,7 @@
+# data.iquizoo 2024.03.29
+
+* Use `memory_score` index for DRM task.
+
 # data.iquizoo 2024.03.28
 
 * Added recent new games without any further names.
