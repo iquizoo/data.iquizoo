@@ -4,7 +4,7 @@
 \alias{match_info}
 \title{Match specific piece of information of games}
 \usage{
-match_info(x, to, from = "game_id")
+match_info(x, to, from = "game_id", fail_on_missing = TRUE)
 }
 \arguments{
 \item{x}{The known information of games.}
@@ -12,6 +12,9 @@ match_info(x, to, from = "game_id")
 \item{to}{The name of the column of the information to be matched.}
 
 \item{from}{The name of the column of the known information.}
+
+\item{fail_on_missing}{Whether to stop if some of the information is not
+matched.}
 }
 \value{
 The matched information.

@@ -5,6 +5,8 @@ test_that("Match existing information", {
 })
 
 test_that("Error if no match", {
-  match_info(0) |>
+  match_info(0, "game_name") |>
     expect_error("not matched")
+  is.na(match_info(0, "game_name", fail_on_missing = FALSE)) |>
+    expect_true()
 })
