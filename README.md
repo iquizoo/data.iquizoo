@@ -11,10 +11,6 @@ coverage](https://codecov.io/gh/psychelzh/data.iquizoo/branch/main/graph/badge.s
 <!-- badges: end -->
 
 The goal of data.iquizoo is to provide datasets for IQUIZOO workflows.
-It originally lived in dataproc.iquizoo package, and then we divided it
-into two new packages: data.iquizoo and preproc.iquizoo (see
-[psychelzh/dataproc.iquizoo#42](https://github.com/psychelzh/dataproc.iquizoo/issues/42)
-for more discussions on this decision).
 
 ## Installation
 
