@@ -36,7 +36,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">data.iquizoo</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2024.03.31</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2024.03.31-1</span>
       </span>
     </div>
 
@@ -81,12 +81,15 @@
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"psychelzh/data.iquizoo"</span><span class="op">)</span></span></code></pre></div>
+<p>Or you can install from <a href="https://psychelzh.r-universe.dev/" class="external-link">r-universe</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"data.iquizoo"</span>, repos <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">getOption</a></span><span class="op">(</span><span class="st">"repos"</span><span class="op">)</span>, <span class="st">"https://psychelzh.r-universe.dev"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>The main parts of the package are two datasets: <code>game_info</code> and <code>game_indices</code>. The former contains information about games, and the latter contains information about the indices of games. Here is a simple example:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/psychelzh/data.iquizoo" class="external-link">data.iquizoo</a></span><span class="op">)</span></span>
 <span><span class="co"># for long-int identifiers</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/ns-load.html" class="external-link">requireNamespace</a></span><span class="op">(</span><span class="st">"bit64"</span>, quietly <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
@@ -112,13 +115,13 @@
 <span><span class="co">#&gt; 5    3e14 nc         FALSE        </span></span>
 <span><span class="co">#&gt; 6    3e14 nc         FALSE</span></span></code></pre></div>
 <p>Some functions are also provided to help you work with the datasets. For example:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/psychelzh/data.iquizoo" class="external-link">data.iquizoo</a></span><span class="op">)</span></span>
 <span><span class="co"># some other useful functions</span></span>
 <span><span class="va">game_id</span> <span class="op">&lt;-</span> <span class="fu">bit64</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/bit64/man/as.integer64.character.html" class="external-link">as.integer64</a></span><span class="op">(</span><span class="fl">305067065282821</span><span class="op">)</span></span>
 <span><span class="fu"><a href="reference/match_info.html">match_info</a></span><span class="op">(</span><span class="va">game_id</span>, to <span class="op">=</span> <span class="st">"game_name"</span><span class="op">)</span></span>
 <span><span class="co">#&gt; [1] "Sandia推理A"</span></span>
-<span><span class="fu"><a href="reference/match_preproc.html">match_preproc</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span>game_id <span class="op">=</span> <span class="va">game_id</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu">match_preproc</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span>game_id <span class="op">=</span> <span class="va">game_id</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;           game_id     prep_fun  tag input extra</span></span>
 <span><span class="co">#&gt; 1 305067065282821 countcorrect &lt;NA&gt;  NULL  NULL</span></span></code></pre></div>
 </div>

@@ -17,7 +17,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">data.iquizoo</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2024.03.31</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2024.03.31-1</span>
       </span>
     </div>
 
@@ -47,6 +47,11 @@
       <small>Source: <a href="https://github.com/psychelzh/data.iquizoo/blob/HEAD/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
+    <div class="section level2">
+<h2 class="page-header" data-toc-text="2024.03.31-1" id="dataiquizoo-20240331-1">data.iquizoo 2024.03.31-1<a class="anchor" aria-label="anchor" href="#dataiquizoo-20240331-1"></a></h2>
+<ul><li>Removed <code>screen_indices()</code> function.</li>
+<li>Now dplyr is not required in the package.</li>
+</ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="2024.03.31" id="dataiquizoo-20240331">data.iquizoo 2024.03.31<a class="anchor" aria-label="anchor" href="#dataiquizoo-20240331"></a></h2>
 <ul><li>Let missing values in <code>game_name_ver</code> column of <code>game_info</code> be empty strings (<code>""</code>).</li>
@@ -86,11 +91,11 @@
     <div class="section level2">
 <h2 class="page-header" data-toc-text="2023.12.08" id="dataiquizoo-20231208">data.iquizoo 2023.12.08<a class="anchor" aria-label="anchor" href="#dataiquizoo-20231208"></a></h2>
 <ul><li>Support tagging specific pre-processing functions. When a pre-processing function is tagged, it signals that it is experimental and may not work as expected. This is useful for newly developed pre-processing functions.</li>
-<li>Add <code>rm_tagged</code> argument in <code><a href="../reference/match_preproc.html">match_preproc()</a></code> to remove tagged pre-processing functions.</li>
+<li>Add <code>rm_tagged</code> argument in <code>match_preproc()</code> to remove tagged pre-processing functions.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="2023.11.04" id="dataiquizoo-20231104">data.iquizoo 2023.11.04<a class="anchor" aria-label="anchor" href="#dataiquizoo-20231104"></a></h2>
-<ul><li>Support <code>type</code> argument in <code><a href="../reference/match_preproc.html">match_preproc()</a></code> to specify which type of join to use.</li>
+<ul><li>Support <code>type</code> argument in <code>match_preproc()</code> to specify which type of join to use.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="2023.11.03" id="dataiquizoo-20231103">data.iquizoo 2023.11.03<a class="anchor" aria-label="anchor" href="#dataiquizoo-20231103"></a></h2>
@@ -104,14 +109,14 @@
 </ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="2023.10.22" id="dataiquizoo-20231022">data.iquizoo 2023.10.22<a class="anchor" aria-label="anchor" href="#dataiquizoo-20231022"></a></h2>
-<ul><li>Moved <code>prep_fun</code> column just after the <code>game_id</code> in the results calling <code><a href="../reference/match_preproc.html">match_preproc()</a></code>.</li>
+<ul><li>Moved <code>prep_fun</code> column just after the <code>game_id</code> in the results calling <code>match_preproc()</code>.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="2023.10.22" id="dataiquizoo-20231022-1">data.iquizoo 2023.10.22<a class="anchor" aria-label="anchor" href="#dataiquizoo-20231022-1"></a></h2>
 <div class="section level3">
 <h3 id="breaking-changes-2023-10-22">Breaking Changes<a class="anchor" aria-label="anchor" href="#breaking-changes-2023-10-22"></a></h3>
 <ul><li>Removed <code>prep_fun_name</code>, <code>input</code> and <code>extra</code> columns from <code>game_info</code> table.</li>
-<li>Added <code><a href="../reference/match_preproc.html">match_preproc()</a></code> function to match pre-processing parameters for games.</li>
+<li>Added <code>match_preproc()</code> function to match pre-processing parameters for games.</li>
 </ul></div>
 </div>
     <div class="section level2">
