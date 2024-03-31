@@ -6,6 +6,7 @@
 \usage{
 merge_preproc(
   games,
+  ...,
   filter_only = FALSE,
   rm_tagged = FALSE,
   name_key = "game_id"
@@ -13,6 +14,8 @@ merge_preproc(
 }
 \arguments{
 \item{games}{A \link{data.frame} contains the games to match parameters.}
+
+\item{...}{Additional arguments passed to \code{\link[=merge]{merge()}}.}
 
 \item{filter_only}{Whether to perform filtering only, i.e., keep only the
 matched games.}
