@@ -18,7 +18,7 @@ through this function."><!-- mathjax --><script src="https://cdnjs.cloudflare.co
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">data.iquizoo</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2024.03.31-1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">2024.03.31-2</span>
       </span>
     </div>
 
@@ -57,6 +57,7 @@ through this function.</p>
     <div id="ref-usage">
     <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">merge_preproc</span><span class="op">(</span></span>
 <span>  <span class="va">games</span>,</span>
+<span>  <span class="va">...</span>,</span>
 <span>  filter_only <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  rm_tagged <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span>  name_key <span class="op">=</span> <span class="st">"game_id"</span></span>
@@ -67,6 +68,10 @@ through this function.</p>
     <h2>Arguments</h2>
     <dl><dt>games</dt>
 <dd><p>A <a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a> contains the games to match parameters.</p></dd>
+
+
+<dt>...</dt>
+<dd><p>Additional arguments passed to <code><a href="https://rdrr.io/r/base/merge.html" class="external-link">merge()</a></code>.</p></dd>
 
 
 <dt>filter_only</dt>
