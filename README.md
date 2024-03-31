@@ -22,6 +22,13 @@ You can install the development version of data.iquizoo from
 devtools::install_github("psychelzh/data.iquizoo")
 ```
 
+Or you can install from [r-universe](https://psychelzh.r-universe.dev/)
+with:
+
+``` r
+install.packages("data.iquizoo", repos = c(getOption("repos"), "https://psychelzh.r-universe.dev"))
+```
+
 ## Example
 
 The main parts of the package are two datasets: `game_info` and
