@@ -32,15 +32,25 @@ devtools::install_github("psychelzh/data.iquizoo")
 
 ## Example
 
-This package only stores data, so there is no function to call. You can load the package and see the data:
+The main parts of the package are two datasets: `game_info` and `game_indices`. The former contains information about games, and the latter contains information about the indices of games. Here is a simple example:
 
 ```{r example}
+library(data.iquizoo)
 # for long-int identifiers
 requireNamespace("bit64", quietly = TRUE)
-data(game_info, game_indices, package = "data.iquizoo")
-# basic example code
+# show the first few rows of the data
 head(game_info)
 head(game_indices)
+```
+
+Some functions are also provided to help you work with the datasets. For example:
+
+```{r example2}
+library(data.iquizoo)
+# some other useful functions
+game_id <- bit64::as.integer64(305067065282821)
+match_info(game_id, to = "game_name")
+match_preproc(data.frame(game_id = game_id))
 ```
 
 ## Contributing

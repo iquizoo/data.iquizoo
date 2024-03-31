@@ -26,30 +26,50 @@ devtools::install_github("psychelzh/data.iquizoo")
 
 ## Example
 
-This package only stores data, so there is no function to call. You can
-load the package and see the data:
+The main parts of the package are two datasets: `game_info` and
+`game_indices`. The former contains information about games, and the
+latter contains information about the indices of games. Here is a simple
+example:
 
 ``` r
+library(data.iquizoo)
 # for long-int identifiers
 requireNamespace("bit64", quietly = TRUE)
-data(game_info, game_indices, package = "data.iquizoo")
-# basic example code
+# show the first few rows of the data
 head(game_info)
-#>           game_id   game_name game_name_ver       game_name_en game_name_abbr
-#> 1 576947514081349  2-back任务          <NA>      Two Back CAMP     Nback2CAMP
-#> 2 305067065282821 Sandia推理A          <NA> Sandia Reasoning A        SandiaA
-#> 3 305067236323525 Sandia推理B          <NA> Sandia Reasoning B        SandiaB
-#> 4 306923687555141 Sandia推理C          <NA> Sandia Reasoning C        SandiaC
-#> 5 306923906232453 Sandia推理D          <NA> Sandia Reasoning D        SandiaD
-#> 6 306924084809861 Sandia推理E          <NA> Sandia Reasoning E        SandiaE
+#> # A tibble: 6 × 6
+#>   game_id game_name   game_name_ver game_name_en game_name_abbr game_id_parallel
+#>   <int64> <chr>       <chr>         <chr>        <chr>                   <int64>
+#> 1    5e14 2-back任务  ""            Two Back CA… Nback2CAMP                NA   
+#> 2    3e14 Sandia推理A ""            Sandia Reas… SandiaA                   NA   
+#> 3    3e14 Sandia推理B ""            Sandia Reas… SandiaB                    3e14
+#> 4    3e14 Sandia推理C ""            Sandia Reas… SandiaC                    3e14
+#> 5    3e14 Sandia推理D ""            Sandia Reas… SandiaD                    3e14
+#> 6    3e14 Sandia推理E ""            Sandia Reas… SandiaE                    3e14
 head(game_indices)
-#>           game_id index_main index_reverse
-#> 1 305067065282821         nc         FALSE
-#> 2 305067236323525         nc         FALSE
-#> 3 306923687555141         nc         FALSE
-#> 4 306923906232453         nc         FALSE
-#> 5 306924084809861         nc         FALSE
-#> 6 306924227293317         nc         FALSE
+#> # A tibble: 6 × 3
+#>   game_id index_main index_reverse
+#>   <int64> <chr>      <lgl>        
+#> 1    3e14 nc         FALSE        
+#> 2    3e14 nc         FALSE        
+#> 3    3e14 nc         FALSE        
+#> 4    3e14 nc         FALSE        
+#> 5    3e14 nc         FALSE        
+#> 6    3e14 nc         FALSE
+```
+
+Some functions are also provided to help you work with the datasets. For
+example:
+
+``` r
+library(data.iquizoo)
+# some other useful functions
+game_id <- bit64::as.integer64(305067065282821)
+match_info(game_id, to = "game_name")
+#> [1] "Sandia推理A"
+match_preproc(data.frame(game_id = game_id))
+#>           game_id     prep_fun  tag input extra
+#> 1 305067065282821 countcorrect <NA>  NULL  NULL
 ```
 
 ## Contributing
