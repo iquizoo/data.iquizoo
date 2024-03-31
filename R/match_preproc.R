@@ -20,7 +20,7 @@ match_preproc <- function(games, type = c("left", "inner", "semi"),
   join <- utils::getFromNamespace(paste0(type, "_join"), "dplyr")
   name_key <- "game_id"
   if (!utils::hasName(games, name_key)) {
-    stop("`game_id` column must be present.")
+    stop("`game_id` column must be present.") # nocov
   }
   if (rm_tagged) {
     game_preproc <- game_preproc[is.na(game_preproc$tag), ]
