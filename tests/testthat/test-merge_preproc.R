@@ -1,28 +1,22 @@
 test_that("Default option works", {
-  n_slice <- 4
-  games <- head(game_info["game_id"], n_slice)
-  # default is inner merge
-  merge_preproc(games) |>
+  head(game_info["game_id"], 4) |>
+    merge_preproc() |>
     expect_named(c("game_id", "prep_fun", "tag", "input", "extra")) |>
     nrow() |>
     expect_equal(3)
 })
 
 test_that("Filter only works correctly", {
-  n_slice <- 4
-  games <- head(game_info["game_id"], n_slice)
-  # filter only
-  merge_preproc(games, filter_only = TRUE) |>
+  head(game_info["game_id"], 4) |>
+    merge_preproc(filter_only = TRUE) |>
     expect_named("game_id") |>
     nrow() |>
     expect_equal(3)
 })
 
 test_that("Change merge options", {
-  n_slice <- 4
-  games <- head(game_info["game_id"], n_slice)
-  # change merge options
-  merge_preproc(games, all.x = TRUE) |>
+  head(game_info["game_id"], 4) |>
+    merge_preproc(all.x = TRUE) |>
     expect_named(c("game_id", "prep_fun", "tag", "input", "extra")) |>
     nrow() |>
     expect_equal(4)
