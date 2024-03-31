@@ -1,17 +1,14 @@
 ## code to prepare `game_info` and `game_indices` dataset goes here
-library(dplyr)
-library(tidyr)
-games <- tarflow.iquizoo::fetch_iquizoo(
-  readr::read_file("data-raw/contents.sql")
-)
-game_config_existed <- readr::read_csv(
+library(tidyverse)
+games <- tarflow.iquizoo::fetch_iquizoo(read_file("data-raw/contents.sql"))
+game_config_existed <- read_csv(
   "data-raw/game_config.csv",
-  col_types = readr::cols(game_id = "I"),
+  col_types = cols(game_id = "I"),
   na = "NA"
 )
-games_exclude <- readr::read_csv(
+games_exclude <- read_csv(
   "data-raw/games_exclude.csv",
-  col_types = readr::cols(game_id = "I"),
+  col_types = cols(game_id = "I"),
   na = "NA"
 )
 games |>
@@ -22,17 +19,18 @@ games |>
     game_config_existed,
     by = join_by(game_id, game_name, game_name_ver)
   ) |>
-  readr::write_excel_csv("data-raw/game_config.csv", quote = "needed", na = "")
+  write_excel_csv("data-raw/game_config.csv", quote = "needed")
 game_config <- readr::read_csv(
   "data-raw/game_config.csv",
-  col_types = readr::cols(game_id = "I")
+  col_types = readr::cols(game_id = "I"),
+  na = "NA"
 ) |>
   mutate(
     across(
       c(input, extra),
       ~ purrr::map(
         .x,
-        ~ if (!is.na(.x)) rlang::parse_expr(.x)
+        ~ if (.x != "") rlang::parse_expr(.x)
       )
     ),
     across(
@@ -65,7 +63,7 @@ game_indices <- game_config |>
   drop_na()
 game_preproc <- game_config |>
   select(game_id, prep_fun_name, input, extra) |>
-  filter(!is.na(prep_fun_name)) |>
+  filter(prep_fun_name != "") |>
   separate_wider_regex(
     prep_fun_name,
     c(prep_fun_name = ".+", tag = "\\W+"),
