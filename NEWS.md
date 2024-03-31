@@ -1,3 +1,8 @@
+# data.iquizoo 2024.03.31-1
+
+* Removed `screen_indices()` function.
+* Now dplyr is not required in the package.
+
 # data.iquizoo 2024.03.31
 
 * Let missing values in `game_name_ver` column of `game_info` be empty strings (`""`).
