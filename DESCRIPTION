@@ -14,9 +14,7 @@ BugReports: https://github.com/psychelzh/data.iquizoo/issues
 Depends:
     R (>= 2.10)
 Imports:
-    bit64,
-    dplyr,
-    utils
+    bit64
 Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

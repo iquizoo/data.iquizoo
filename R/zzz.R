@@ -1,6 +1,3 @@
-#' @import dplyr
-NULL
-
 # nocov start
 
 unused_import <- function() {
