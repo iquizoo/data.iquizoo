@@ -1,3 +1,7 @@
+# data.iquizoo 2024.03.31
+
+* Let missing values in `game_name_ver` column of `game_info` be empty strings (`""`).
+
 # data.iquizoo 2024.03.29-1
 
 * Add `fail_on_missing` to `match_info()` to control whether to fail when found unmatched ids.
