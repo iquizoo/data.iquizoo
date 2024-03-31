@@ -1,6 +1,11 @@
+# data.iquizoo 2024.03.31-2
+
+* Added `...` to pass additional arguments to `merge()` in `merge_preproc()`.
+
 # data.iquizoo 2024.03.31-1
 
 * Removed `screen_indices()` function.
+* Renamed `match_preproc()` as `merge_preproc()`.
 * Now dplyr is not required in the package.
 
 # data.iquizoo 2024.03.31
