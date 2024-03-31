@@ -57,7 +57,7 @@ library(data.iquizoo)
 # some other useful functions
 game_id <- bit64::as.integer64(305067065282821)
 match_info(game_id, to = "game_name")
-match_preproc(data.frame(game_id = game_id))
+merge_preproc(data.frame(game_id = game_id))
 ```
 
 ## Contributing
