@@ -142,7 +142,7 @@
 627117861392453,情绪记忆,,,,,,,,
 627825768022341,情绪识别,,,,,,,,
 240406295777861,我是大厨,,Modified SynWin,MSynWin,synwin,,,score_total,f
-654850921660485,我是大厨,训练版,,,,,,,
+654850921660485,我是大厨,训练版,Modified SynWin,MSynWin,synwin,,,score_total,f
 225528186135045,打靶场,,Rotation Span,RSpan,span,"list(name_acc = ""accarrow"")",,nc,f
 655178470338885,打靶场,训练版,,,,,,,
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,,dprime,f
