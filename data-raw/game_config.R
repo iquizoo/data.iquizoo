@@ -19,7 +19,7 @@ games |>
     game_config_existed,
     by = join_by(game_id, game_name, game_name_ver)
   ) |>
-  write_excel_csv("data-raw/game_config.csv", quote = "needed")
+  write_excel_csv("data-raw/game_config.csv", quote = "needed", na = "")
 game_config <- readr::read_csv(
   "data-raw/game_config.csv",
   col_types = readr::cols(game_id = "I"),
