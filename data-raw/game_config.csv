@@ -65,11 +65,11 @@
 305133401714885,卡片分类STD,,Card Sorting Standard,CardSortStd,switchcost,,,switch_cost_ies,t
 640240594624581,卡片分类WSCT,,,,,,,,
 238239294447813,变戏法,,AntiSaccade,AntiSac,crt,,,ies,t
-268008982663247,变色魔块,,Stop Signal,StopSig,stopsignal,,,ssrt,t
-336274132898565,变色魔块,学前版,Stop Signal (Pre-School),StopSigK,stopsignal,,,ssrt,t
-406627992458501,变色魔块,快速版,Stop Signal (Short),StopSigS,stopsignal,,,ssrt,t
-581946914316613,变色魔块,Q版,Stop Signal Q,StopSigQ,stopsignal,,,ssrt,t
-224375977935045,变色魔块PRO,,Stop Signal Pro,StopSigPro,stopsignal,,,ssrt,t
+268008982663247,变色魔块,,Stop Signal,StopSig,stopsignal,,,ssrt;rt_nth,t
+336274132898565,变色魔块,学前版,Stop Signal (Pre-School),StopSigK,stopsignal,,,ssrt;rt_nth,t
+406627992458501,变色魔块,快速版,Stop Signal (Short),StopSigS,stopsignal,,,ssrt;rt_nth,t
+581946914316613,变色魔块,Q版,Stop Signal Q,StopSigQ,stopsignal,,,ssrt;rt_nth,t
+224375977935045,变色魔块PRO,,Stop Signal Pro,StopSigPro,stopsignal,,,ssrt;rt_nth,t
 268008982667368,各得其所,,London Tower Test,LdnTwr,london,,,prop_perfect,f
 268008982663280,吹气球,,BART,BART,bart,,,mean_pumps,t
 361750352892805,图形折叠,,Folding Reasoning,FR,countcorrect,,,nc,f
@@ -148,9 +148,9 @@
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,,dprime,f
 268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 268008982667388,按图索骥,,Hidden Object Paradigm,HOP,refframe,,,mean_log_err_both,t
-268008982671430,捉虫,,Continuous Performance Test,CPT,cpt,,,dprime,f
-268008982667355,捉虫高级版,,Test of Variables of Attention,TOVA,cpt,,,dprime,f
-268008982667347,捉虫高级简版,,Test of Variables of Attention (Short Version),TOVAS,cpt,,,dprime,f
+268008982671430,捉虫,,Continuous Performance Test,CPT,cpt,,,dprime;rtsd,f;t
+268008982667355,捉虫高级版,,Test of Variables of Attention,TOVA,cpt,,,dprime;rtsd,f;t
+268008982667347,捉虫高级简版,,Test of Variables of Attention (Short Version),TOVAS,cpt,,,dprime;rtsd,f;t
 306809690124357,捡金币,,Collect Coins,Coins,cpt,,,dprime,f
 304836385665157,数字卡片,,Digit N-back,DigitNback,nback,,,dprime,f
 581943598526789,数字卡片,QC版,Digit N-back QC,DigitNbackQC,nback,,,dprime,f
