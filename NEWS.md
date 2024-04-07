@@ -1,3 +1,7 @@
+# data.iquizoo 2024.04.07
+
+* Added more indices to two types of games.
+
 # data.iquizoo 2024.04.03
 
 * Matched more pre-processing functions.
