@@ -1,3 +1,7 @@
+# data.iquizoo 2024.04.11
+
+* Removed `rtsd` index from `TOVA` related games. This index is highly correlated with `dprime` index.
+
 # data.iquizoo 2024.04.07
 
 * Added more indices to two types of games.
