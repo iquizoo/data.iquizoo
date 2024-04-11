@@ -148,9 +148,9 @@
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,,dprime,f
 268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")",nc,f
 268008982667388,按图索骥,,Hidden Object Paradigm,HOP,refframe,,,mean_log_err_both,t
-268008982671430,捉虫,,Continuous Performance Test,CPT,cpt,,,dprime;rtsd,f;t
-268008982667355,捉虫高级版,,Test of Variables of Attention,TOVA,cpt,,,dprime;rtsd,f;t
-268008982667347,捉虫高级简版,,Test of Variables of Attention (Short Version),TOVAS,cpt,,,dprime;rtsd,f;t
+268008982671430,捉虫,,Continuous Performance Test,CPT,cpt,,,dprime,f
+268008982667355,捉虫高级版,,Test of Variables of Attention,TOVA,cpt,,,dprime,f
+268008982667347,捉虫高级简版,,Test of Variables of Attention (Short Version),TOVAS,cpt,,,dprime,f
 306809690124357,捡金币,,Collect Coins,Coins,cpt,,,dprime,f
 304836385665157,数字卡片,,Digit N-back,DigitNback,nback,,,dprime,f
 581943598526789,数字卡片,QC版,Digit N-back QC,DigitNbackQC,nback,,,dprime,f
