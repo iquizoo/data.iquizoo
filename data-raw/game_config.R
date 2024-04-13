@@ -32,11 +32,6 @@ game_config <- readr::read_csv(
         .x,
         ~ if (.x != "") rlang::parse_expr(.x)
       )
-    ),
-    across(
-      starts_with("index"),
-      ~ stringr::str_split(.x, ";") |>
-        purrr::map(readr::parse_guess)
     )
   )
 game_info <- game_config |>
@@ -57,10 +52,6 @@ game_info <- game_config |>
   ) |>
   select(-game_name_stem, -parallel)
 
-game_indices <- game_config |>
-  select(game_id, index_main, index_reverse) |>
-  unnest(cols = c(index_main, index_reverse)) |>
-  drop_na()
 game_preproc <- game_config |>
   select(game_id, prep_fun_name, input, extra) |>
   filter(prep_fun_name != "") |>
@@ -74,5 +65,5 @@ game_preproc <- game_config |>
     .keep = "unused",
     .after = 1
   )
-usethis::use_data(game_info, game_indices, overwrite = TRUE)
+usethis::use_data(game_info, overwrite = TRUE)
 usethis::use_data(game_preproc, internal = TRUE, overwrite = TRUE)
