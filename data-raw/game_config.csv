@@ -31,6 +31,7 @@
 386196539900677,井然有序,,Manipulation Span,ManipSpan,span,,,nc,f
 581944172884293,井然有序,QA版,Manipulation Span QA,ManipSpanQA,span,,,nc,f
 581944844951877,井然有序,QC版,Manipulation Span QC,ManipSpanQC,span,,,nc,f
+682420929036421,人工词典,语音录入版,,,,,,,
 380174879445893,人工词典A,,Categoral Retrieval A,CatRetA,countcorrect*,,,nc,f
 380175342101381,人工词典B,,Categoral Retrieval B,CatRetB,countcorrect*,,,nc,f
 268008982646872,人工语言-中级,,Associative Memory Language Medium,AscLanMd,countcorrect,"list(name_acc = ""correctness"")",,nc,f
