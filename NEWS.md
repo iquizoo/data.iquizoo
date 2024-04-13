@@ -1,3 +1,8 @@
+# data.iquizoo 2024.04.13
+
+* Added one newly developed game.
+* Removed `game_indices` now, which is too unstable to keep.
+
 # data.iquizoo 2024.04.11
 
 * Removed `rtsd` index from `TOVA` related games. This index is highly correlated with `dprime` index.
