@@ -15,6 +15,7 @@
 375916542735109,万花筒,,Object Span,ObjSpan,span,"list(name_slen = ""numpic"", name_acc = ""acc"")",
 580516903215173,万花筒,LQ版,Object Span LQ,ObjSpanLQ,span,"list(name_slen = ""numpic"", name_acc = ""acc"")",
 581937491521605,万花筒,Q版,Object Span Q,ObjSpanQ,span,"list(name_slen = ""numpic"", name_acc = ""acc"")",
+711090270143109,三维心理旋转测试,商用版,,,,,
 268008982659144,三维心理旋转测试A,,Mental Rotation 3D A,MR3DA,countcorrect,,
 580512857256261,三维心理旋转测试A,LQA版,Mental Rotation 3D LQ A,MR3DLQA,countcorrect,,
 268008982663256,三维心理旋转测试B,,Mental Rotation 3D B,MR3DB,countcorrect,,
@@ -25,6 +26,8 @@
 268008982663252,九五之集,,Number Sets Test,NumSets,countcorrect,,
 380173961339781,事件记忆,,Event Order Test,EOT,countcorrect,,
 581938871021637,事件记忆,QC版,Event Order Test QC,EOTQC,countcorrect,,
+685978854400133,事件记忆,商用版,,,,,
+685979857133701,事件记忆,QC商用版,,,,,
 322146290869125,二维心理旋转测试C,,Mental Rotation C,MRC,countcorrect,,
 580514476503109,二维心理旋转测试C,LQC版,Mental Rotation LQC C,MRLQCC,countcorrect,,
 322152762168197,二维心理旋转测试D,,Mental Rotation D,MRD,countcorrect,,
@@ -56,6 +59,9 @@
 650220772778053,候鸟飞行,,Birds Migration Congruency,BirdsCong,congeff,"list(name_cong = ""stimtype"")",
 268008982655076,关系判断A,,Relation Judgment A,RelJudgA,countcorrect,,
 268008982655087,关系判断B,,Relation Judgment B,RelJudgB,countcorrect,,
+688076569579845,动物卡片,商用版,,,,,
+709328206598597,动物卡片B,商用版,,,,,
+710715001332357,动物卡片PRO,商用版,,,,,
 375932568191877,动词产生A,,Verb Generation A,VGA,vg*,,list(dists = vg_dists)
 375932921029381,动词产生B,,Verb Generation B,VGB,vg*,,list(dists = vg_dists)
 268008982642812,卡片分类,,Card Sorting,CardSort,switchcost,,
@@ -83,8 +89,10 @@
 355740333933445,图形推理,,Nonverbal Reasoning,NVR,countcorrect,,
 581948075721029,图形推理,QA版,Nonverbal Reasoning QA,NVRQA,countcorrect,,
 581948660420677,图形推理,QC版,Nonverbal Reasoning QC,NVRQC,countcorrect,,
+711089732039365,图形推理,商用版,,,,,
 268008982671437,图形推理A,,Nonverbal Reasoning A,NVRA,countcorrect,,
 268008982642769,图形推理B,,Nonverbal Reasoning B,NVRB,countcorrect,,
+712062258270853,图形推理D,商用版,,,,,
 268008982667382,图形推理高级,,Nonverbal Reasoning Advanced,NVRAdv,countcorrect,,
 651644141412485,图形照相机,,Symmetry Complex Span Figure,SCSpanFig,span,"list(name_acc = ""accloc"")",
 655160858611781,图形照相机,训练版,Symmetry Complex Span Figure Train,SCSpanFigT,span,"list(name_acc = ""accloc"")",
@@ -101,6 +109,7 @@
 268008982667391,声调判断,,Tone,Tone,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")"
 291684813000773,外星语言-中级,,Associative Memory Language Muted Medium,AscMemMMed,countcorrect,"list(name_acc = ""correctness"")",
 291684371972165,外星语言-初级,,Associative Memory Language Muted Junior,AscMemMJr,countcorrect,"list(name_acc = ""correctness"")",
+713480890876613,外星语言-高级,,,,,,
 380176247862021,多变计数师,,Reflective Counting,ReflectCount,switchcost,,
 581934263337285,多变计数师,Q版,Reflective Counting Q,ReflectCountQ,switchcost,,
 655145331503173,多变计数师,训练版,Reflective Counting Train,ReflectCountT,switchcost,,
@@ -120,6 +129,7 @@
 268008982667358,宇宙黑洞A,,Location Memory Standard,LocMemStd,span,"list(name_slen = ""numobject"")",
 268008982659181,宇宙黑洞B,,Location Memory Remain,LocMemRem,span,"list(name_slen = ""numobject"")",
 268008982667381,密码箱,,Keep Track,KeepTrack,span,"list(name_slen = ""length"")",
+714196271813061,密码箱,商用版,,,,,
 268008982646863,察颜观色,,Faces Reading,Faces,complexswitch,,
 581948589850949,察颜观色,Q版,Faces Reading Q,FacesQ,complexswitch,,
 654831810031685,察颜观色,训练版,Faces Reading Train,FacesT,complexswitch,,
@@ -127,8 +137,11 @@
 265086851706949,小狗回家,,NeuroRacer,Racer,racer,,
 581934694998341,小狗回家,QA版,NeuroRacerQA,RacerQA,racer,,
 605549418979653,小狗回家,无宝石版,,,,,
+687306583073093,小狗回家,商用版,,,,,
 268008982659145,平衡达人,,Tumbler,TBLR,countcorrect,,
 324179001000709,平面展开,,Unfolding,Unfolding,countcorrect,,
+711088309785285,平面展开,商用版,,,,,
+712066469188037,平面展开D,商用版,,,,,
 304834943373509,幸运小球,,Operation Complex Span,OCSpan,span,"list(name_acc = ""acclet"")",
 238279920537669,幸运小球PRO,,Operation Complex Span Pro,OCSpanPro,span,"list(name_acc = ""acclet"")",
 268008982642793,强化学习,,Probabilistic Reinforcement Learning,ProbRL,reinf,,
@@ -144,8 +157,11 @@
 627825768022341,情绪识别,,,,,,
 240406295777861,我是大厨,,Modified SynWin,MSynWin,synwin,,
 654850921660485,我是大厨,训练版,Modified SynWin Train,MSynWinT,synwin,,
+685979655270725,我是大厨,商用版,,,,,
 225528186135045,打靶场,,Rotation Span,RSpan,span,"list(name_acc = ""accarrow"")",
 655178470338885,打靶场,训练版,Rotation Span Train,RSpanT,span,"list(name_acc = ""accarrow"")",
+688790725972101,拆弹专家中级,商用版,,,,,
+702235350393285,拆弹专家初级,商用版,,,,,
 306808793817221,拍苍蝇,,Swat Flies,Flies,cpt,,
 268008982642763,拼音判断,,Pinyin,Pinyin,cpt,"list(name_type = ""cresp"")","list(type_signal = ""left"")"
 268008982667388,按图索骥,,Hidden Object Paradigm,HOP,refframe,,
@@ -165,6 +181,7 @@
 268008982655059,数感,,Nonsymbolic Numeric Comparison,NsymNCmp,nsymncmp,,
 225525419221509,文字卡片,,Verbal 3-back,Verbal3back,nback,,
 356101783560965,文字推理,,Verbal Reasoning,VR,countcorrect,,
+711089059103429,文字推理,商用版,,,,,
 268008982642767,文字推理A,,Verbal Reasoning A,VRA,countcorrect,,
 268008982671447,文字推理B,,Verbal Reasoning B,VRB,countcorrect,,
 268008982646873,文字推理高级,,Verbal Reasoning Advanced,VRAdv,countcorrect,,
@@ -286,6 +303,7 @@
 375903641948933,随机应变,,Number Letter Shifting,NumLet,switchcost,"list(name_switch = ""tasktype"")",
 655146133745989,随机应变,训练版,Number Letter Shifting Train,NumLetT,switchcost,"list(name_switch = ""tasktype"")",
 238267995484229,雪花收藏家,,Directed Search,DirectSrc,countcorrect2,"list(name_nc = ""correctnum"", name_ne = ""falsenum"")",
+687305948045637,雪花收藏家,商用版,,,,,
 268008982655080,顺背数,,Forward Digit Span,FDS,span,,
 357179194073989,顺背数,快速版,Forward Digit Span Speeded,FDSSpd,span,,
 581944970731589,顺背数,QC版本,Forward Digit Span QC,FDSQC,span,,
@@ -293,6 +311,7 @@
 268008982642788,魔术师,,N Back Test,Nback,nback,,"list(type_filler = ""none"", type_signal = ""stay"")"
 268008982655097,魔术师中级,,Two Back Test,Nback2,nback,,"list(type_filler = ""none"", type_signal = ""stay"")"
 580515744215365,魔术师中级,LQC版,Two Back Test LQC,Nback2LQC,nback,,"list(type_filler = ""none"", type_signal = ""stay"")"
+687300752973957,魔术师中级,商用版,,,,,
 268008982642809,魔术师初级,,One Back Test,Nback1,nback,,"list(type_filler = ""none"", type_signal = ""stay"")"
 268008982663269,魔术师终极,,Four Back Test,Nback4,nback,,"list(type_filler = ""none"", type_signal = ""stay"")"
 581946396487749,魔术师终极,QA版,Four Back Test QA,Nback4QA,nback,,"list(type_filler = ""none"", type_signal = ""stay"")"
@@ -343,6 +362,7 @@
 268008982655086,希望量表,,Hope,Hope,sumscore,,
 383637861135109,序列记忆-记忆策略,1.0.0,Sequence Memory Strategy,SMS,sumscore,,
 268008982671450,心境焦虑症状,,Anxiety,Anxiety,sumscore,,
+715028289041029,心情问卷,,,,,,
 268008982642778,心理健康自评量表,,Mental Health Self-report,MHSelf,sumscore,,
 268008982642799,心理健康问卷,,Mental Health Scale,MHScale,sumscore,,
 268008982650999,情绪觉察问卷,儿童版,Emotion Perception,EmoPerc,sumscore,,
