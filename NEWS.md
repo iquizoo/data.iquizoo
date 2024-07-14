@@ -1,3 +1,7 @@
+# data.iquizoo 2024.07.14
+
+* Added more newly developed game.
+
 # data.iquizoo 2024.04.13
 
 * Added one newly developed game.
