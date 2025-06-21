@@ -39,7 +39,7 @@ install.packages("data.iquizoo", repos = c(getOption("repos"), "https://psychelz
 
 ## Example
 
-The main parts of the package are two datasets: `game_info` and `game_indices`. The former contains information about games, and the latter contains information about the indices of games. Here is a simple example:
+The main parts of the package is a dataset: `game_info` containing basic information about games. Here is a simple example:
 
 ```{r example}
 library(data.iquizoo)
@@ -47,7 +47,6 @@ library(data.iquizoo)
 requireNamespace("bit64", quietly = TRUE)
 # show the first few rows of the data
 head(game_info)
-head(game_indices)
 ```
 
 Some functions are also provided to help you work with the datasets. For example:

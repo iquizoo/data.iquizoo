@@ -31,10 +31,8 @@ install.packages("data.iquizoo", repos = c(getOption("repos"), "https://psychelz
 
 ## Example
 
-The main parts of the package are two datasets: `game_info` and
-`game_indices`. The former contains information about games, and the
-latter contains information about the indices of games. Here is a simple
-example:
+The main parts of the package is a dataset: `game_info` containing basic
+information about games. Here is a simple example:
 
 ``` r
 library(data.iquizoo)
@@ -42,28 +40,20 @@ library(data.iquizoo)
 requireNamespace("bit64", quietly = TRUE)
 # show the first few rows of the data
 head(game_info)
-#>           game_id   game_name game_name_ver       game_name_en game_name_abbr
-#> 1 576947514081349  2-back任务                    Two Back CAMP     Nback2CAMP
-#> 2 305067065282821 Sandia推理A               Sandia Reasoning A        SandiaA
-#> 3 305067236323525 Sandia推理B               Sandia Reasoning B        SandiaB
-#> 4 306923687555141 Sandia推理C               Sandia Reasoning C        SandiaC
-#> 5 306923906232453 Sandia推理D               Sandia Reasoning D        SandiaD
-#> 6 306924084809861 Sandia推理E               Sandia Reasoning E        SandiaE
+#>           game_id    game_name game_name_ver       game_name_en game_name_abbr
+#> 1 576947514081349   2-back任务                    Two Back CAMP     Nback2CAMP
+#> 2 770528428376709 CMAT数学测试                                                
+#> 3 305067065282821  Sandia推理A         1.0.0 Sandia Reasoning A        SandiaA
+#> 4 305067236323525  Sandia推理B               Sandia Reasoning B        SandiaB
+#> 5 306923687555141  Sandia推理C               Sandia Reasoning C        SandiaC
+#> 6 306923906232453  Sandia推理D               Sandia Reasoning D        SandiaD
 #>   game_id_parallel
 #> 1             <NA>
 #> 2             <NA>
-#> 3  305067065282821
+#> 3             <NA>
 #> 4  305067065282821
 #> 5  305067065282821
 #> 6  305067065282821
-head(game_indices)
-#>           game_id index_main index_reverse
-#> 1 305067065282821         nc         FALSE
-#> 2 305067236323525         nc         FALSE
-#> 3 306923687555141         nc         FALSE
-#> 4 306923906232453         nc         FALSE
-#> 5 306924084809861         nc         FALSE
-#> 6 306924227293317         nc         FALSE
 ```
 
 Some functions are also provided to help you work with the datasets. For
