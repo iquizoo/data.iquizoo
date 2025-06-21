@@ -1,3 +1,8 @@
+# data.iquizoo 2025.06.21-1
+
+* Finish upkeeping for the package.
+* Fix some test cases.
+
 # data.iquizoo 2025.06.21
 
 * Added more newly developed games.

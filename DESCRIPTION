@@ -1,6 +1,6 @@
 Package: data.iquizoo
 Title: Useful datasets used in IQUIZOO workflow
-Version: 2025.06.21
+Version: 2025.06.21-1
 Authors@R:
     person("Liang", "Zhang", , "psychelzh@outlook.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-9041-1150"))
