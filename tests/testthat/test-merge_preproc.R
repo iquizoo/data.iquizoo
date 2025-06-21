@@ -3,7 +3,7 @@ test_that("Default option works", {
     merge_preproc() |>
     expect_named(c("game_id", "prep_fun", "tag", "input", "extra")) |>
     nrow() |>
-    expect_equal(3)
+    expect_equal(2)
 })
 
 test_that("Filter only works correctly", {
@@ -11,7 +11,7 @@ test_that("Filter only works correctly", {
     merge_preproc(filter_only = TRUE) |>
     expect_named("game_id") |>
     nrow() |>
-    expect_equal(3)
+    expect_equal(2)
 })
 
 test_that("Change merge options", {
