@@ -7,7 +7,7 @@
 
 [![R-CMD-check](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/psychelzh/data.iquizoo/branch/main/graph/badge.svg)](https://app.codecov.io/gh/psychelzh/data.iquizoo?branch=main)
+coverage](https://codecov.io/gh/iquizoo/data.iquizoo/graph/badge.svg)](https://app.codecov.io/gh/iquizoo/data.iquizoo)
 <!-- badges: end -->
 
 The goal of data.iquizoo is to provide datasets for IQUIZOO workflows.
