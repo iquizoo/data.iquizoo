@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/psychelzh/data.iquizoo/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/iquizoo/data.iquizoo/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/iquizoo/data.iquizoo/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/iquizoo/data.iquizoo/graph/badge.svg)](https://app.codecov.io/gh/iquizoo/data.iquizoo)
 <!-- badges: end -->
@@ -19,14 +19,14 @@ You can install the development version of data.iquizoo from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("psychelzh/data.iquizoo")
+devtools::install_github("iquizoo/data.iquizoo")
 ```
 
-Or you can install from [r-universe](https://psychelzh.r-universe.dev/)
+Or you can install from [r-universe](https://iquizoo.r-universe.dev/)
 with:
 
 ``` r
-install.packages("data.iquizoo", repos = c(getOption("repos"), "https://psychelzh.r-universe.dev"))
+install.packages("data.iquizoo", repos = c(getOption("repos"), "https://iquizoo.r-universe.dev"))
 ```
 
 ## Example
