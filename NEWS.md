@@ -1,3 +1,10 @@
+# data.iquizoo 2026.03.26
+
+* Sync latest game metadata and update `data-raw/game_config.csv`.
+* Add `game_info` and internal `game_preproc` datasets.
+* Improve filtering: exclude test games and numeric-only names.
+* Fix parsing of `prep_fun_name`, and safer handling of `input` / `extra` and parallel forms.
+
 # data.iquizoo 2025.06.21-1
 
 * Finish upkeeping for the package.
